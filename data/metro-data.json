@@ -1,0 +1,5775 @@
+{
+  "meta": {
+    "title": "Namma Metro Explorer",
+    "city": "Bengaluru",
+    "state": "Karnataka, India",
+    "operator": "Bangalore Metro Rail Corporation Limited (BMRCL)",
+    "snapshot": "25 October 2026",
+    "systemOpened": "20 October 2011",
+    "lines": 3,
+    "stations": 83,
+    "lengthKm": 96.1,
+    "dailyRidership": "9.16 lakh",
+    "recordRidership": "11.20 lakh",
+    "recordDate": "10 August 2026",
+    "fareMin": 10,
+    "fareMax": 90,
+    "frequency": "3–15 min",
+    "hours": "05:00–23:00",
+    "sundayFrom": "07:00",
+    "topSpeedKmph": 80,
+    "averageSpeedKmph": 34,
+    "gauge": "1,435 mm standard gauge",
+    "electrification": "750 V DC third rail",
+    "coaches": 6,
+    "bounds": [
+      77.460663,
+      12.819088,
+      77.758097,
+      13.058226
+    ],
+    "generatedFrom": {
+      "basemap": "OpenFreeMap",
+      "geometry": "OpenStreetMap route relations 1798771, 1798772, 19421944 (ODbL)",
+      "stations": "BMRCL / Wikipedia / OSM route-relation stop positions (ODbL)"
+    },
+    "notes": [
+      "The Pink Line's 7.5 km elevated section (Kalena Agrahara–Tavarekere) is awaiting final safety approval; it is not included in this operational map.",
+      "The Blue Line (Central Silk Board–K.R. Puram–Kempegowda International Airport) remains under construction.",
+      "Service hours are from terminal stations; last trains generally leave around 23:00, with occasional late-night special services.",
+      "Fares range from ₹10 to ₹90; smart-card journeys receive a 5% discount."
+    ],
+    "sources": [
+      {
+        "label": "BMRCL",
+        "url": "https://english.bmrc.co.in/"
+      },
+      {
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/"
+      },
+      {
+        "label": "OpenFreeMap",
+        "url": "https://openfreemap.org/"
+      },
+      {
+        "label": "Wikipedia: Namma Metro",
+        "url": "https://en.wikipedia.org/wiki/Namma_Metro"
+      }
+    ]
+  },
+  "lines": [
+    {
+      "id": "purple",
+      "name": "Purple Line",
+      "shortName": "Purple",
+      "color": "#7E22CE",
+      "soft": "#F3E8FF",
+      "contrast": "#FFFFFF",
+      "terminals": [
+        "Whitefield (Kadugodi)",
+        "Challaghatta"
+      ],
+      "lengthKm": 43.49,
+      "measuredKm": 43.52,
+      "stationCount": 37,
+      "opened": "20 October 2011",
+      "lastExtension": "9 October 2023",
+      "endToEndMin": 80,
+      "operatingSpeedKmph": 36,
+      "depots": [
+        "Kadugodi",
+        "Challaghatta (under construction)"
+      ],
+      "description": "Bengaluru's east–west spine, linking Whitefield's tech corridor with Krishnarajapura, Indiranagar, MG Road, the central business district, Majestic and the southwestern suburbs. It was the city's first metro line.",
+      "neighbourhoods": [
+        "Whitefield",
+        "ITPL",
+        "KR Puram",
+        "Indiranagar",
+        "MG Road",
+        "CBD",
+        "Majestic",
+        "Vijayanagar",
+        "Kengeri",
+        "Challaghatta"
+      ],
+      "coordinates": [
+        [
+          77.758097,
+          12.996217
+        ],
+        [
+          77.756987,
+          12.992611
+        ],
+        [
+          77.755022,
+          12.989896
+        ],
+        [
+          77.753095,
+          12.985359
+        ],
+        [
+          77.752783,
+          12.984846
+        ],
+        [
+          77.752341,
+          12.984461
+        ],
+        [
+          77.751548,
+          12.984175
+        ],
+        [
+          77.750922,
+          12.984234
+        ],
+        [
+          77.74551,
+          12.986192
+        ],
+        [
+          77.740144,
+          12.987565
+        ],
+        [
+          77.735836,
+          12.987591
+        ],
+        [
+          77.73359,
+          12.987887
+        ],
+        [
+          77.733148,
+          12.987841
+        ],
+        [
+          77.732705,
+          12.987604
+        ],
+        [
+          77.732083,
+          12.986812
+        ],
+        [
+          77.731714,
+          12.98648
+        ],
+        [
+          77.730608,
+          12.98584
+        ],
+        [
+          77.729994,
+          12.985361
+        ],
+        [
+          77.728276,
+          12.983274
+        ],
+        [
+          77.72783,
+          12.982219
+        ],
+        [
+          77.727359,
+          12.979994
+        ],
+        [
+          77.727289,
+          12.977225
+        ],
+        [
+          77.726923,
+          12.976706
+        ],
+        [
+          77.726367,
+          12.976471
+        ],
+        [
+          77.71634,
+          12.977438
+        ],
+        [
+          77.710287,
+          12.978228
+        ],
+        [
+          77.709764,
+          12.978433
+        ],
+        [
+          77.709482,
+          12.978683
+        ],
+        [
+          77.709233,
+          12.979194
+        ],
+        [
+          77.708302,
+          12.982633
+        ],
+        [
+          77.708215,
+          12.984303
+        ],
+        [
+          77.708399,
+          12.98582
+        ],
+        [
+          77.708657,
+          12.986513
+        ],
+        [
+          77.709261,
+          12.987528
+        ],
+        [
+          77.709498,
+          12.987755
+        ],
+        [
+          77.713718,
+          12.990294
+        ],
+        [
+          77.713892,
+          12.990605
+        ],
+        [
+          77.713889,
+          12.99135
+        ],
+        [
+          77.713662,
+          12.991756
+        ],
+        [
+          77.713355,
+          12.991983
+        ],
+        [
+          77.712791,
+          12.992234
+        ],
+        [
+          77.710798,
+          12.99279
+        ],
+        [
+          77.70522,
+          12.993018
+        ],
+        [
+          77.700011,
+          12.994358
+        ],
+        [
+          77.69792,
+          12.995081
+        ],
+        [
+          77.695554,
+          12.99541
+        ],
+        [
+          77.693714,
+          12.996169
+        ],
+        [
+          77.691482,
+          12.996953
+        ],
+        [
+          77.68887,
+          12.998218
+        ],
+        [
+          77.687657,
+          12.999446
+        ],
+        [
+          77.686722,
+          13.000077
+        ],
+        [
+          77.686204,
+          13.000214
+        ],
+        [
+          77.684551,
+          13.000335
+        ],
+        [
+          77.681874,
+          13.000387
+        ],
+        [
+          77.68086,
+          13.000113
+        ],
+        [
+          77.679907,
+          12.999977
+        ],
+        [
+          77.67683,
+          12.999854
+        ],
+        [
+          77.676208,
+          12.999761
+        ],
+        [
+          77.67041,
+          12.996982
+        ],
+        [
+          77.669738,
+          12.996921
+        ],
+        [
+          77.668943,
+          12.996709
+        ],
+        [
+          77.667428,
+          12.996027
+        ],
+        [
+          77.665486,
+          12.995388
+        ],
+        [
+          77.664235,
+          12.995272
+        ],
+        [
+          77.662324,
+          12.995587
+        ],
+        [
+          77.661875,
+          12.99556
+        ],
+        [
+          77.661144,
+          12.99535
+        ],
+        [
+          77.659084,
+          12.994305
+        ],
+        [
+          77.656603,
+          12.992901
+        ],
+        [
+          77.655866,
+          12.992415
+        ],
+        [
+          77.65459,
+          12.991322
+        ],
+        [
+          77.649271,
+          12.989761
+        ],
+        [
+          77.648973,
+          12.989524
+        ],
+        [
+          77.64875,
+          12.989202
+        ],
+        [
+          77.648176,
+          12.987616
+        ],
+        [
+          77.647855,
+          12.987177
+        ],
+        [
+          77.647601,
+          12.987009
+        ],
+        [
+          77.641063,
+          12.984349
+        ],
+        [
+          77.640767,
+          12.984055
+        ],
+        [
+          77.640604,
+          12.983497
+        ],
+        [
+          77.640804,
+          12.979299
+        ],
+        [
+          77.640639,
+          12.978831
+        ],
+        [
+          77.640185,
+          12.978433
+        ],
+        [
+          77.639696,
+          12.97833
+        ],
+        [
+          77.63294,
+          12.978127
+        ],
+        [
+          77.628983,
+          12.978427
+        ],
+        [
+          77.627759,
+          12.977752
+        ],
+        [
+          77.627259,
+          12.977322
+        ],
+        [
+          77.62588,
+          12.975418
+        ],
+        [
+          77.622504,
+          12.973304
+        ],
+        [
+          77.621715,
+          12.972962
+        ],
+        [
+          77.62085,
+          12.97272
+        ],
+        [
+          77.619125,
+          12.972596
+        ],
+        [
+          77.618407,
+          12.972675
+        ],
+        [
+          77.612743,
+          12.973974
+        ],
+        [
+          77.60236,
+          12.976562
+        ],
+        [
+          77.601731,
+          12.976942
+        ],
+        [
+          77.601546,
+          12.977219
+        ],
+        [
+          77.600798,
+          12.979097
+        ],
+        [
+          77.600073,
+          12.979977
+        ],
+        [
+          77.598408,
+          12.980656
+        ],
+        [
+          77.596318,
+          12.981346
+        ],
+        [
+          77.595173,
+          12.981587
+        ],
+        [
+          77.594555,
+          12.981484
+        ],
+        [
+          77.593244,
+          12.980578
+        ],
+        [
+          77.592,
+          12.978963
+        ],
+        [
+          77.591109,
+          12.977973
+        ],
+        [
+          77.590625,
+          12.977626
+        ],
+        [
+          77.587889,
+          12.97619
+        ],
+        [
+          77.584986,
+          12.974948
+        ],
+        [
+          77.58198,
+          12.973209
+        ],
+        [
+          77.581367,
+          12.972978
+        ],
+        [
+          77.580877,
+          12.973063
+        ],
+        [
+          77.578106,
+          12.974318
+        ],
+        [
+          77.575711,
+          12.975243
+        ],
+        [
+          77.574123,
+          12.975573
+        ],
+        [
+          77.56912,
+          12.97598
+        ],
+        [
+          77.566719,
+          12.975968
+        ],
+        [
+          77.562674,
+          12.975594
+        ],
+        [
+          77.558929,
+          12.97578
+        ],
+        [
+          77.553818,
+          12.975557
+        ],
+        [
+          77.553156,
+          12.975461
+        ],
+        [
+          77.552764,
+          12.975293
+        ],
+        [
+          77.550946,
+          12.973939
+        ],
+        [
+          77.550552,
+          12.973774
+        ],
+        [
+          77.549895,
+          12.973833
+        ],
+        [
+          77.548892,
+          12.974418
+        ],
+        [
+          77.548262,
+          12.974494
+        ],
+        [
+          77.546819,
+          12.974176
+        ],
+        [
+          77.544557,
+          12.974176
+        ],
+        [
+          77.543391,
+          12.974058
+        ],
+        [
+          77.538901,
+          12.973098
+        ],
+        [
+          77.538208,
+          12.972592
+        ],
+        [
+          77.537824,
+          12.972
+        ],
+        [
+          77.536219,
+          12.967584
+        ],
+        [
+          77.533593,
+          12.961858
+        ],
+        [
+          77.533095,
+          12.96036
+        ],
+        [
+          77.533229,
+          12.959646
+        ],
+        [
+          77.534346,
+          12.957016
+        ],
+        [
+          77.534849,
+          12.955197
+        ],
+        [
+          77.536701,
+          12.953152
+        ],
+        [
+          77.537375,
+          12.951042
+        ],
+        [
+          77.537292,
+          12.950285
+        ],
+        [
+          77.536948,
+          12.949762
+        ],
+        [
+          77.53603,
+          12.948934
+        ],
+        [
+          77.534774,
+          12.948174
+        ],
+        [
+          77.530902,
+          12.947018
+        ],
+        [
+          77.529269,
+          12.946291
+        ],
+        [
+          77.528344,
+          12.945679
+        ],
+        [
+          77.527324,
+          12.944778
+        ],
+        [
+          77.52669,
+          12.944021
+        ],
+        [
+          77.524097,
+          12.940085
+        ],
+        [
+          77.522978,
+          12.938949
+        ],
+        [
+          77.521764,
+          12.938153
+        ],
+        [
+          77.520579,
+          12.936953
+        ],
+        [
+          77.518695,
+          12.936306
+        ],
+        [
+          77.517015,
+          12.93628
+        ],
+        [
+          77.51394,
+          12.936039
+        ],
+        [
+          77.510948,
+          12.934878
+        ],
+        [
+          77.508382,
+          12.932605
+        ],
+        [
+          77.506491,
+          12.931281
+        ],
+        [
+          77.505648,
+          12.929973
+        ],
+        [
+          77.505379,
+          12.929721
+        ],
+        [
+          77.503861,
+          12.929122
+        ],
+        [
+          77.503567,
+          12.928917
+        ],
+        [
+          77.502274,
+          12.927567
+        ],
+        [
+          77.500251,
+          12.926103
+        ],
+        [
+          77.497485,
+          12.923518
+        ],
+        [
+          77.494394,
+          12.921938
+        ],
+        [
+          77.493868,
+          12.921583
+        ],
+        [
+          77.492844,
+          12.920218
+        ],
+        [
+          77.491517,
+          12.918994
+        ],
+        [
+          77.490361,
+          12.916973
+        ],
+        [
+          77.490041,
+          12.916605
+        ],
+        [
+          77.485364,
+          12.912873
+        ],
+        [
+          77.485067,
+          12.912372
+        ],
+        [
+          77.484664,
+          12.911063
+        ],
+        [
+          77.484319,
+          12.910609
+        ],
+        [
+          77.483781,
+          12.910369
+        ],
+        [
+          77.48234,
+          12.910368
+        ],
+        [
+          77.481405,
+          12.91014
+        ],
+        [
+          77.479957,
+          12.909283
+        ],
+        [
+          77.478644,
+          12.908824
+        ],
+        [
+          77.477537,
+          12.908576
+        ],
+        [
+          77.475338,
+          12.907277
+        ],
+        [
+          77.473949,
+          12.906955
+        ],
+        [
+          77.473458,
+          12.906726
+        ],
+        [
+          77.470908,
+          12.90487
+        ],
+        [
+          77.469748,
+          12.902998
+        ],
+        [
+          77.468993,
+          12.902266
+        ],
+        [
+          77.46624,
+          12.900665
+        ],
+        [
+          77.4621,
+          12.897985
+        ],
+        [
+          77.460663,
+          12.896779
+        ]
+      ],
+      "bounds": [
+        77.460663,
+        12.896779,
+        77.758097,
+        13.000387
+      ],
+      "stationIds": [
+        "whitefield-kadugodi",
+        "hopefarm-channasandra",
+        "kadugodi-tree-park",
+        "pattandur-agrahara",
+        "sri-sathya-sai-hospital",
+        "nallurhalli",
+        "kundalahalli",
+        "seetharampalya",
+        "hoodi",
+        "garudacharapalya",
+        "singayyanapalya",
+        "krishnarajapura",
+        "benniganahalli",
+        "baiyappanahalli",
+        "swami-vivekananda-road",
+        "indiranagar",
+        "halasuru",
+        "trinity",
+        "mahatma-gandhi-road",
+        "cubbon-park",
+        "dr-b-r-ambedkar-station-vidhana-soudha",
+        "sir-m-visvesvaraya-central-college",
+        "nadaprabhu-kempegowda-station-majestic",
+        "krantivira-sangolli-rayanna-railway-station",
+        "magadi-road",
+        "sri-balagangadharanatha-swamiji-hosahalli",
+        "vijayanagar",
+        "attiguppe",
+        "deepanjali-nagar",
+        "mysuru-road",
+        "pantharapalya-nayandahalli",
+        "rajarajeshwari-nagar",
+        "jnanabharathi",
+        "pattanagere",
+        "kengeri-bus-terminal",
+        "kengeri",
+        "challaghatta"
+      ]
+    },
+    {
+      "id": "green",
+      "name": "Green Line",
+      "shortName": "Green",
+      "color": "#16A34A",
+      "soft": "#DCFCE7",
+      "contrast": "#FFFFFF",
+      "terminals": [
+        "Madavara",
+        "Silk Institute"
+      ],
+      "lengthKm": 33.46,
+      "measuredKm": 33.94,
+      "stationCount": 32,
+      "opened": "1 March 2014",
+      "lastExtension": "7 November 2024",
+      "endToEndMin": 61,
+      "operatingSpeedKmph": 40,
+      "depots": [
+        "Peenya",
+        "Anjanapura (under construction)"
+      ],
+      "description": "The north–south line, connecting Madavara and the Peenya industrial belt with Yeshwanthpur, Malleshwaram, Majestic, Basavanagudi, Jayanagar, Banashankari and the Kanakapura Road suburbs.",
+      "neighbourhoods": [
+        "Madavara",
+        "Peenya",
+        "Yeshwanthpur",
+        "Malleshwaram",
+        "Majestic",
+        "Basavanagudi",
+        "Jayanagar",
+        "Banashankari",
+        "Konanakunte",
+        "Thalaghattapura"
+      ],
+      "coordinates": [
+        [
+          77.469557,
+          13.058226
+        ],
+        [
+          77.477415,
+          13.056308
+        ],
+        [
+          77.481266,
+          13.054746
+        ],
+        [
+          77.491498,
+          13.051027
+        ],
+        [
+          77.494133,
+          13.050185
+        ],
+        [
+          77.501763,
+          13.047334
+        ],
+        [
+          77.505134,
+          13.046123
+        ],
+        [
+          77.508216,
+          13.045231
+        ],
+        [
+          77.511345,
+          13.043639
+        ],
+        [
+          77.516193,
+          13.041977
+        ],
+        [
+          77.516482,
+          13.04184
+        ],
+        [
+          77.518491,
+          13.040036
+        ],
+        [
+          77.526581,
+          13.03569
+        ],
+        [
+          77.529788,
+          13.034783
+        ],
+        [
+          77.530962,
+          13.034275
+        ],
+        [
+          77.535403,
+          13.031676
+        ],
+        [
+          77.537817,
+          13.030084
+        ],
+        [
+          77.55113,
+          13.022463
+        ],
+        [
+          77.551743,
+          13.021842
+        ],
+        [
+          77.553095,
+          13.019324
+        ],
+        [
+          77.553795,
+          13.016635
+        ],
+        [
+          77.554045,
+          13.013765
+        ],
+        [
+          77.553895,
+          13.013248
+        ],
+        [
+          77.553402,
+          13.012776
+        ],
+        [
+          77.550323,
+          13.011085
+        ],
+        [
+          77.549839,
+          13.010729
+        ],
+        [
+          77.549273,
+          13.010009
+        ],
+        [
+          77.548977,
+          13.00928
+        ],
+        [
+          77.548636,
+          13.007029
+        ],
+        [
+          77.548673,
+          13.006189
+        ],
+        [
+          77.549906,
+          12.998868
+        ],
+        [
+          77.550104,
+          12.998271
+        ],
+        [
+          77.550483,
+          12.997931
+        ],
+        [
+          77.551219,
+          12.997762
+        ],
+        [
+          77.553073,
+          12.998215
+        ],
+        [
+          77.555425,
+          12.998659
+        ],
+        [
+          77.555895,
+          12.998648
+        ],
+        [
+          77.557395,
+          12.998363
+        ],
+        [
+          77.558618,
+          12.997983
+        ],
+        [
+          77.561796,
+          12.996685
+        ],
+        [
+          77.56474,
+          12.99623
+        ],
+        [
+          77.565958,
+          12.996397
+        ],
+        [
+          77.56646,
+          12.996249
+        ],
+        [
+          77.566833,
+          12.995916
+        ],
+        [
+          77.571326,
+          12.989581
+        ],
+        [
+          77.571799,
+          12.988614
+        ],
+        [
+          77.57198,
+          12.985722
+        ],
+        [
+          77.571872,
+          12.981792
+        ],
+        [
+          77.571911,
+          12.980419
+        ],
+        [
+          77.572693,
+          12.978805
+        ],
+        [
+          77.572768,
+          12.978492
+        ],
+        [
+          77.572869,
+          12.976827
+        ],
+        [
+          77.572863,
+          12.973619
+        ],
+        [
+          77.574565,
+          12.969689
+        ],
+        [
+          77.574658,
+          12.969294
+        ],
+        [
+          77.574496,
+          12.96568
+        ],
+        [
+          77.574876,
+          12.963629
+        ],
+        [
+          77.574848,
+          12.962306
+        ],
+        [
+          77.574441,
+          12.959679
+        ],
+        [
+          77.573646,
+          12.957428
+        ],
+        [
+          77.573572,
+          12.95698
+        ],
+        [
+          77.573703,
+          12.94935
+        ],
+        [
+          77.573989,
+          12.948753
+        ],
+        [
+          77.574546,
+          12.948436
+        ],
+        [
+          77.576364,
+          12.948245
+        ],
+        [
+          77.579161,
+          12.948229
+        ],
+        [
+          77.57974,
+          12.947871
+        ],
+        [
+          77.579973,
+          12.947313
+        ],
+        [
+          77.580281,
+          12.918443
+        ],
+        [
+          77.580221,
+          12.917977
+        ],
+        [
+          77.579898,
+          12.917471
+        ],
+        [
+          77.579415,
+          12.917224
+        ],
+        [
+          77.578509,
+          12.9172
+        ],
+        [
+          77.577088,
+          12.917628
+        ],
+        [
+          77.574924,
+          12.917668
+        ],
+        [
+          77.574241,
+          12.917421
+        ],
+        [
+          77.573842,
+          12.916911
+        ],
+        [
+          77.573425,
+          12.914303
+        ],
+        [
+          77.573002,
+          12.912687
+        ],
+        [
+          77.572848,
+          12.911677
+        ],
+        [
+          77.572921,
+          12.908953
+        ],
+        [
+          77.573324,
+          12.905547
+        ],
+        [
+          77.573191,
+          12.903848
+        ],
+        [
+          77.573429,
+          12.902066
+        ],
+        [
+          77.573388,
+          12.901504
+        ],
+        [
+          77.572876,
+          12.8997
+        ],
+        [
+          77.572711,
+          12.899373
+        ],
+        [
+          77.571203,
+          12.897284
+        ],
+        [
+          77.568739,
+          12.894551
+        ],
+        [
+          77.567451,
+          12.893259
+        ],
+        [
+          77.561769,
+          12.888215
+        ],
+        [
+          77.560379,
+          12.88719
+        ],
+        [
+          77.559046,
+          12.886653
+        ],
+        [
+          77.554065,
+          12.885063
+        ],
+        [
+          77.550342,
+          12.883964
+        ],
+        [
+          77.547726,
+          12.883291
+        ],
+        [
+          77.547063,
+          12.882914
+        ],
+        [
+          77.546767,
+          12.882417
+        ],
+        [
+          77.544135,
+          12.87618
+        ],
+        [
+          77.543376,
+          12.875373
+        ],
+        [
+          77.540951,
+          12.874185
+        ],
+        [
+          77.540303,
+          12.873705
+        ],
+        [
+          77.539781,
+          12.873174
+        ],
+        [
+          77.536551,
+          12.869154
+        ],
+        [
+          77.532986,
+          12.86452
+        ],
+        [
+          77.53205,
+          12.863656
+        ],
+        [
+          77.530464,
+          12.86257
+        ],
+        [
+          77.527646,
+          12.858023
+        ]
+      ],
+      "bounds": [
+        77.469557,
+        12.858023,
+        77.580281,
+        13.058226
+      ],
+      "stationIds": [
+        "madavara",
+        "chikkabidarakallu",
+        "manjunath-nagar",
+        "nagasandra",
+        "dasarahalli",
+        "jalahalli",
+        "peenya-industry",
+        "peenya",
+        "goraguntepalya",
+        "yeshwanthpur",
+        "sandal-soap-factory",
+        "mahalakshmi",
+        "rajajinagar",
+        "mahakavi-kuvempu-road",
+        "srirampura",
+        "mantri-square-sampige-road",
+        "nadaprabhu-kempegowda-station-majestic",
+        "chickpete",
+        "krishna-rajendra-market",
+        "national-college",
+        "lalbagh",
+        "south-end-circle",
+        "jayanagar",
+        "rashtreeya-vidyalaya-road",
+        "banashankari",
+        "jayaprakash-nagar",
+        "yelachenahalli",
+        "konanakunte-cross",
+        "doddakallasandra",
+        "vajarahalli",
+        "thalaghattapura",
+        "silk-institute"
+      ]
+    },
+    {
+      "id": "yellow",
+      "name": "Yellow Line",
+      "shortName": "Yellow",
+      "color": "#EAB308",
+      "soft": "#FEF9C3",
+      "contrast": "#1F2937",
+      "terminals": [
+        "Rashtreeya Vidyalaya Road",
+        "Delta Electronics Bommasandra"
+      ],
+      "lengthKm": 19.15,
+      "measuredKm": 18.09,
+      "stationCount": 16,
+      "opened": "10 August 2025",
+      "lastExtension": "10 August 2025",
+      "endToEndMin": 40,
+      "operatingSpeedKmph": null,
+      "depots": [
+        "Hebbagodi"
+      ],
+      "description": "Bengaluru's newest operational line, opened in August 2025. The fully elevated corridor runs from RV Road through BTM Layout and Central Silk Board to Electronic City and Bommasandra, serving the city's southern tech belt.",
+      "neighbourhoods": [
+        "RV Road",
+        "Jayanagar",
+        "BTM Layout",
+        "Silk Board",
+        "Bommanahalli",
+        "Hosa Road",
+        "Electronic City",
+        "Hebbagodi",
+        "Bommasandra"
+      ],
+      "coordinates": [
+        [
+          77.580095,
+          12.92096
+        ],
+        [
+          77.58027,
+          12.917949
+        ],
+        [
+          77.580669,
+          12.917393
+        ],
+        [
+          77.581343,
+          12.917146
+        ],
+        [
+          77.586711,
+          12.917019
+        ],
+        [
+          77.587497,
+          12.917116
+        ],
+        [
+          77.58937,
+          12.917074
+        ],
+        [
+          77.590342,
+          12.916943
+        ],
+        [
+          77.611832,
+          12.916546
+        ],
+        [
+          77.614198,
+          12.916474
+        ],
+        [
+          77.616635,
+          12.916259
+        ],
+        [
+          77.61932,
+          12.916239
+        ],
+        [
+          77.622018,
+          12.916994
+        ],
+        [
+          77.622528,
+          12.916908
+        ],
+        [
+          77.622954,
+          12.916647
+        ],
+        [
+          77.626504,
+          12.910622
+        ],
+        [
+          77.646948,
+          12.877357
+        ],
+        [
+          77.64746,
+          12.876645
+        ],
+        [
+          77.650609,
+          12.873127
+        ],
+        [
+          77.660591,
+          12.860534
+        ],
+        [
+          77.662856,
+          12.857329
+        ],
+        [
+          77.664922,
+          12.855028
+        ],
+        [
+          77.669869,
+          12.84858
+        ],
+        [
+          77.671849,
+          12.845533
+        ],
+        [
+          77.673108,
+          12.844499
+        ],
+        [
+          77.67432,
+          12.843172
+        ],
+        [
+          77.677866,
+          12.838543
+        ],
+        [
+          77.678374,
+          12.837757
+        ],
+        [
+          77.679512,
+          12.834921
+        ],
+        [
+          77.68011,
+          12.833272
+        ],
+        [
+          77.680563,
+          12.831566
+        ],
+        [
+          77.681743,
+          12.827996
+        ],
+        [
+          77.683175,
+          12.825126
+        ],
+        [
+          77.683595,
+          12.824563
+        ],
+        [
+          77.688657,
+          12.819088
+        ]
+      ],
+      "bounds": [
+        77.580095,
+        12.819088,
+        77.688657,
+        12.92096
+      ],
+      "stationIds": [
+        "rashtreeya-vidyalaya-road",
+        "ragigudda",
+        "jayadeva-hospital",
+        "btm-layout",
+        "central-silk-board",
+        "bommanahalli",
+        "hongasandra",
+        "kudlu-gate",
+        "singasandra",
+        "hosa-road",
+        "beratena-agrahara",
+        "electronic-city",
+        "infosys-foundation-konappana-agrahara",
+        "huskur-road",
+        "biocon-hebbagodi",
+        "delta-electronics-bommasandra"
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "name": "Nadaprabhu Kempegowda Station Majestic",
+      "short": "Majestic",
+      "actual": [
+        77.5728057,
+        12.9756704
+      ],
+      "routes": [
+        {
+          "line": "green",
+          "sequence": 17,
+          "code": "KGWA",
+          "actual": [
+            77.5728675,
+            12.9759557
+          ],
+          "on_route": true,
+          "type": "Underground",
+          "opened": "2017"
+        },
+        {
+          "line": "purple",
+          "sequence": 23,
+          "code": "KGWA",
+          "actual": [
+            77.5728057,
+            12.9756704
+          ],
+          "on_route": true,
+          "type": "Underground",
+          "opened": "2016"
+        }
+      ],
+      "id": "nadaprabhu-kempegowda-station-majestic",
+      "display": [
+        77.572837,
+        12.975813
+      ],
+      "lines": [
+        "green",
+        "purple"
+      ],
+      "line_names": [
+        "Green Line",
+        "Purple Line"
+      ],
+      "primary_line": "green",
+      "type": "Underground",
+      "codes": [
+        "KGWA"
+      ],
+      "sequences": {
+        "green": 17,
+        "purple": 23
+      },
+      "opened": "2016–2017",
+      "opened_by_line": {
+        "green": "2017",
+        "purple": "2016"
+      },
+      "interchange": true,
+      "connections": [
+        {
+          "type": "rail",
+          "label": "KSR Bengaluru City railway station"
+        },
+        {
+          "type": "bus",
+          "label": "Kempegowda Bus Station"
+        },
+        {
+          "type": "metro",
+          "label": "Purple ↔ Green interchange"
+        }
+      ],
+      "rank": 0
+    },
+    {
+      "name": "Rashtreeya Vidyalaya Road",
+      "short": "RV Road",
+      "actual": [
+        77.580239,
+        12.9219936
+      ],
+      "routes": [
+        {
+          "line": "green",
+          "sequence": 24,
+          "code": "RVR",
+          "actual": [
+            77.580239,
+            12.9219936
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2017"
+        },
+        {
+          "line": "yellow",
+          "sequence": 1,
+          "code": "RVR",
+          "actual": [
+            77.5800946,
+            12.9209601
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2025"
+        }
+      ],
+      "id": "rashtreeya-vidyalaya-road",
+      "display": [
+        77.580167,
+        12.921477
+      ],
+      "lines": [
+        "green",
+        "yellow"
+      ],
+      "line_names": [
+        "Green Line",
+        "Yellow Line"
+      ],
+      "primary_line": "green",
+      "type": "Elevated",
+      "codes": [
+        "RVR"
+      ],
+      "sequences": {
+        "green": 24,
+        "yellow": 1
+      },
+      "opened": "2017–2025",
+      "opened_by_line": {
+        "green": "2017",
+        "yellow": "2025"
+      },
+      "interchange": true,
+      "connections": [
+        {
+          "type": "metro",
+          "label": "Green ↔ Yellow interchange"
+        }
+      ],
+      "rank": 0
+    },
+    {
+      "name": "Challaghatta",
+      "short": "Challaghatta",
+      "actual": [
+        77.4612476,
+        12.897289
+      ],
+      "routes": [
+        {
+          "line": "purple",
+          "sequence": 37,
+          "code": "CLGA",
+          "actual": [
+            77.4612476,
+            12.897289
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2023"
+        }
+      ],
+      "id": "challaghatta",
+      "display": [
+        77.461248,
+        12.897289
+      ],
+      "lines": [
+        "purple"
+      ],
+      "line_names": [
+        "Purple Line"
+      ],
+      "primary_line": "purple",
+      "type": "Elevated",
+      "codes": [
+        "CLGA"
+      ],
+      "sequences": {
+        "purple": 37
+      },
+      "opened": "2023",
+      "opened_by_line": {
+        "purple": "2023"
+      },
+      "interchange": false,
+      "connections": [],
+      "rank": 1
+    },
+    {
+      "name": "Delta Electronics Bommasandra",
+      "short": "Bommasandra",
+      "actual": [
+        77.688657,
+        12.8190878
+      ],
+      "routes": [
+        {
+          "line": "yellow",
+          "sequence": 16,
+          "code": "BMSD",
+          "actual": [
+            77.688657,
+            12.8190878
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2025"
+        }
+      ],
+      "id": "delta-electronics-bommasandra",
+      "display": [
+        77.688657,
+        12.819088
+      ],
+      "lines": [
+        "yellow"
+      ],
+      "line_names": [
+        "Yellow Line"
+      ],
+      "primary_line": "yellow",
+      "type": "Elevated",
+      "codes": [
+        "BMSD"
+      ],
+      "sequences": {
+        "yellow": 16
+      },
+      "opened": "2025",
+      "opened_by_line": {
+        "yellow": "2025"
+      },
+      "interchange": false,
+      "connections": [],
+      "rank": 1
+    },
+    {
+      "name": "Madavara",
+      "short": "Madavara",
+      "actual": [
+        77.4728018,
+        13.0574004
+      ],
+      "routes": [
+        {
+          "line": "green",
+          "sequence": 1,
+          "code": "BIET",
+          "actual": [
+            77.4728018,
+            13.0574004
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2024"
+        }
+      ],
+      "id": "madavara",
+      "display": [
+        77.472802,
+        13.0574
+      ],
+      "lines": [
+        "green"
+      ],
+      "line_names": [
+        "Green Line"
+      ],
+      "primary_line": "green",
+      "type": "Elevated",
+      "codes": [
+        "BIET"
+      ],
+      "sequences": {
+        "green": 1
+      },
+      "opened": "2024",
+      "opened_by_line": {
+        "green": "2024"
+      },
+      "interchange": false,
+      "connections": [],
+      "rank": 1
+    },
+    {
+      "name": "Silk Institute",
+      "short": "Silk Institute",
+      "actual": [
+        77.5299083,
+        12.8616919
+      ],
+      "routes": [
+        {
+          "line": "green",
+          "sequence": 32,
+          "code": "APTS",
+          "actual": [
+            77.5299083,
+            12.8616919
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2021"
+        }
+      ],
+      "id": "silk-institute",
+      "display": [
+        77.529908,
+        12.861692
+      ],
+      "lines": [
+        "green"
+      ],
+      "line_names": [
+        "Green Line"
+      ],
+      "primary_line": "green",
+      "type": "Elevated",
+      "codes": [
+        "APTS"
+      ],
+      "sequences": {
+        "green": 32
+      },
+      "opened": "2021",
+      "opened_by_line": {
+        "green": "2021"
+      },
+      "interchange": false,
+      "connections": [],
+      "rank": 1
+    },
+    {
+      "name": "Whitefield (Kadugodi)",
+      "short": "Whitefield",
+      "actual": [
+        77.7578215,
+        12.99519
+      ],
+      "routes": [
+        {
+          "line": "purple",
+          "sequence": 1,
+          "code": "WHTM",
+          "actual": [
+            77.7578215,
+            12.99519
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2023"
+        }
+      ],
+      "id": "whitefield-kadugodi",
+      "display": [
+        77.757822,
+        12.99519
+      ],
+      "lines": [
+        "purple"
+      ],
+      "line_names": [
+        "Purple Line"
+      ],
+      "primary_line": "purple",
+      "type": "Elevated",
+      "codes": [
+        "WHTM"
+      ],
+      "sequences": {
+        "purple": 1
+      },
+      "opened": "2023",
+      "opened_by_line": {
+        "purple": "2023"
+      },
+      "interchange": false,
+      "connections": [
+        {
+          "type": "rail",
+          "label": "Whitefield railway station"
+        },
+        {
+          "type": "bus",
+          "label": "Kadugodi TTMC"
+        }
+      ],
+      "rank": 1
+    },
+    {
+      "name": "Baiyappanahalli",
+      "short": "Baiyappanahalli",
+      "actual": [
+        77.652392,
+        12.9906745
+      ],
+      "routes": [
+        {
+          "line": "purple",
+          "sequence": 14,
+          "code": "BYPH",
+          "actual": [
+            77.652392,
+            12.9906745
+          ],
+          "on_route": true,
+          "type": "At grade",
+          "opened": "2011"
+        }
+      ],
+      "id": "baiyappanahalli",
+      "display": [
+        77.652392,
+        12.990675
+      ],
+      "lines": [
+        "purple"
+      ],
+      "line_names": [
+        "Purple Line"
+      ],
+      "primary_line": "purple",
+      "type": "At grade",
+      "codes": [
+        "BYPH"
+      ],
+      "sequences": {
+        "purple": 14
+      },
+      "opened": "2011",
+      "opened_by_line": {
+        "purple": "2011"
+      },
+      "interchange": false,
+      "connections": [
+        {
+          "type": "rail",
+          "label": "Baiyappanahalli railway station"
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "name": "Banashankari",
+      "short": "Banashankari",
+      "actual": [
+        77.5735786,
+        12.9152242
+      ],
+      "routes": [
+        {
+          "line": "green",
+          "sequence": 25,
+          "code": "BSNK",
+          "actual": [
+            77.5735786,
+            12.9152242
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2017"
+        }
+      ],
+      "id": "banashankari",
+      "display": [
+        77.573579,
+        12.915224
+      ],
+      "lines": [
+        "green"
+      ],
+      "line_names": [
+        "Green Line"
+      ],
+      "primary_line": "green",
+      "type": "Elevated",
+      "codes": [
+        "BSNK"
+      ],
+      "sequences": {
+        "green": 25
+      },
+      "opened": "2017",
+      "opened_by_line": {
+        "green": "2017"
+      },
+      "interchange": false,
+      "connections": [
+        {
+          "type": "bus",
+          "label": "Banashankari TTMC"
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "name": "Central Silk Board",
+      "short": "Central Silk Board",
+      "actual": [
+        77.6210257,
+        12.9167339
+      ],
+      "routes": [
+        {
+          "line": "yellow",
+          "sequence": 5,
+          "code": "SBJT",
+          "actual": [
+            77.6210257,
+            12.9167339
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2025"
+        }
+      ],
+      "id": "central-silk-board",
+      "display": [
+        77.621026,
+        12.916734
+      ],
+      "lines": [
+        "yellow"
+      ],
+      "line_names": [
+        "Yellow Line"
+      ],
+      "primary_line": "yellow",
+      "type": "Elevated",
+      "codes": [
+        "SBJT"
+      ],
+      "sequences": {
+        "yellow": 5
+      },
+      "opened": "2025",
+      "opened_by_line": {
+        "yellow": "2025"
+      },
+      "interchange": false,
+      "connections": [
+        {
+          "type": "bus",
+          "label": "Silk Board TTMC"
+        },
+        {
+          "type": "future",
+          "label": "Blue Line (under construction)"
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "name": "Electronic City",
+      "short": "Electronic City",
+      "actual": [
+        77.6637352,
+        12.8562795
+      ],
+      "routes": [
+        {
+          "line": "yellow",
+          "sequence": 12,
+          "code": "ETCT",
+          "actual": [
+            77.6637352,
+            12.8562795
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2025"
+        }
+      ],
+      "id": "electronic-city",
+      "display": [
+        77.663735,
+        12.856279
+      ],
+      "lines": [
+        "yellow"
+      ],
+      "line_names": [
+        "Yellow Line"
+      ],
+      "primary_line": "yellow",
+      "type": "Elevated",
+      "codes": [
+        "ETCT"
+      ],
+      "sequences": {
+        "yellow": 12
+      },
+      "opened": "2025",
+      "opened_by_line": {
+        "yellow": "2025"
+      },
+      "interchange": false,
+      "connections": [],
+      "rank": 2
+    },
+    {
+      "name": "Indiranagar",
+      "short": "Indiranagar",
+      "actual": [
+        77.6386592,
+        12.9783079
+      ],
+      "routes": [
+        {
+          "line": "purple",
+          "sequence": 16,
+          "code": "IDN",
+          "actual": [
+            77.6386592,
+            12.9783079
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2011"
+        }
+      ],
+      "id": "indiranagar",
+      "display": [
+        77.638659,
+        12.978308
+      ],
+      "lines": [
+        "purple"
+      ],
+      "line_names": [
+        "Purple Line"
+      ],
+      "primary_line": "purple",
+      "type": "Elevated",
+      "codes": [
+        "IDN"
+      ],
+      "sequences": {
+        "purple": 16
+      },
+      "opened": "2011",
+      "opened_by_line": {
+        "purple": "2011"
+      },
+      "interchange": false,
+      "connections": [],
+      "rank": 2
+    },
+    {
+      "name": "Jayadeva Hospital",
+      "short": "Jayadeva Hospital",
+      "actual": [
+        77.6004425,
+        12.9167643
+      ],
+      "routes": [
+        {
+          "line": "yellow",
+          "sequence": 3,
+          "code": "JDHP",
+          "actual": [
+            77.6004425,
+            12.9167643
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2025"
+        }
+      ],
+      "id": "jayadeva-hospital",
+      "display": [
+        77.600442,
+        12.916764
+      ],
+      "lines": [
+        "yellow"
+      ],
+      "line_names": [
+        "Yellow Line"
+      ],
+      "primary_line": "yellow",
+      "type": "Elevated",
+      "codes": [
+        "JDHP"
+      ],
+      "sequences": {
+        "yellow": 3
+      },
+      "opened": "2025",
+      "opened_by_line": {
+        "yellow": "2025"
+      },
+      "interchange": false,
+      "connections": [
+        {
+          "type": "future",
+          "label": "Pink Line (under construction)"
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "name": "Jayanagar",
+      "short": "Jayanagar",
+      "actual": [
+        77.580123,
+        12.9295065
+      ],
+      "routes": [
+        {
+          "line": "green",
+          "sequence": 23,
+          "code": "JYN",
+          "actual": [
+            77.580123,
+            12.9295065
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2017"
+        }
+      ],
+      "id": "jayanagar",
+      "display": [
+        77.580123,
+        12.929507
+      ],
+      "lines": [
+        "green"
+      ],
+      "line_names": [
+        "Green Line"
+      ],
+      "primary_line": "green",
+      "type": "Elevated",
+      "codes": [
+        "JYN"
+      ],
+      "sequences": {
+        "green": 23
+      },
+      "opened": "2017",
+      "opened_by_line": {
+        "green": "2017"
+      },
+      "interchange": false,
+      "connections": [
+        {
+          "type": "bus",
+          "label": "Jayanagar TTMC"
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "name": "Kengeri",
+      "short": "Kengeri",
+      "actual": [
+        77.4765361,
+        12.9079612
+      ],
+      "routes": [
+        {
+          "line": "purple",
+          "sequence": 36,
+          "code": "KGIT",
+          "actual": [
+            77.4765361,
+            12.9079612
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2021"
+        }
+      ],
+      "id": "kengeri",
+      "display": [
+        77.476536,
+        12.907961
+      ],
+      "lines": [
+        "purple"
+      ],
+      "line_names": [
+        "Purple Line"
+      ],
+      "primary_line": "purple",
+      "type": "Elevated",
+      "codes": [
+        "KGIT"
+      ],
+      "sequences": {
+        "purple": 36
+      },
+      "opened": "2021",
+      "opened_by_line": {
+        "purple": "2021"
+      },
+      "interchange": false,
+      "connections": [
+        {
+          "type": "rail",
+          "label": "Kengeri railway station"
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "name": "Krishnarajapura",
+      "short": "KR Puram",
+      "actual": [
+        77.6778421,
+        12.9998836
+      ],
+      "routes": [
+        {
+          "line": "purple",
+          "sequence": 12,
+          "code": "KRAM",
+          "actual": [
+            77.6778421,
+            12.9998836
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2023"
+        }
+      ],
+      "id": "krishnarajapura",
+      "display": [
+        77.677842,
+        12.999884
+      ],
+      "lines": [
+        "purple"
+      ],
+      "line_names": [
+        "Purple Line"
+      ],
+      "primary_line": "purple",
+      "type": "Elevated",
+      "codes": [
+        "KRAM"
+      ],
+      "sequences": {
+        "purple": 12
+      },
+      "opened": "2023",
+      "opened_by_line": {
+        "purple": "2023"
+      },
+      "interchange": false,
+      "connections": [
+        {
+          "type": "rail",
+          "label": "Krishnarajapuram railway station"
+        },
+        {
+          "type": "future",
+          "label": "Blue Line (under construction)"
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "name": "Mahatma Gandhi Road",
+      "short": "MG Road",
+      "actual": [
+        77.6062979,
+        12.9756285
+      ],
+      "routes": [
+        {
+          "line": "purple",
+          "sequence": 19,
+          "code": "MAGR",
+          "actual": [
+            77.6062979,
+            12.9756285
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2011"
+        }
+      ],
+      "id": "mahatma-gandhi-road",
+      "display": [
+        77.606298,
+        12.975628
+      ],
+      "lines": [
+        "purple"
+      ],
+      "line_names": [
+        "Purple Line"
+      ],
+      "primary_line": "purple",
+      "type": "Elevated",
+      "codes": [
+        "MAGR"
+      ],
+      "sequences": {
+        "purple": 19
+      },
+      "opened": "2011",
+      "opened_by_line": {
+        "purple": "2011"
+      },
+      "interchange": false,
+      "connections": [
+        {
+          "type": "future",
+          "label": "Pink Line (under construction)"
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "name": "Peenya",
+      "short": "Peenya",
+      "actual": [
+        77.5331801,
+        13.0329814
+      ],
+      "routes": [
+        {
+          "line": "green",
+          "sequence": 8,
+          "code": "PEYA",
+          "actual": [
+            77.5331801,
+            13.0329814
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2014"
+        }
+      ],
+      "id": "peenya",
+      "display": [
+        77.53318,
+        13.032981
+      ],
+      "lines": [
+        "green"
+      ],
+      "line_names": [
+        "Green Line"
+      ],
+      "primary_line": "green",
+      "type": "Elevated",
+      "codes": [
+        "PEYA"
+      ],
+      "sequences": {
+        "green": 8
+      },
+      "opened": "2014",
+      "opened_by_line": {
+        "green": "2014"
+      },
+      "interchange": false,
+      "connections": [
+        {
+          "type": "future",
+          "label": "Orange Line (approved)"
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "name": "Rajajinagar",
+      "short": "Rajajinagar",
+      "actual": [
+        77.5496166,
+        13.0005232
+      ],
+      "routes": [
+        {
+          "line": "green",
+          "sequence": 13,
+          "code": "RJNR",
+          "actual": [
+            77.5496166,
+            13.0005232
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2014"
+        }
+      ],
+      "id": "rajajinagar",
+      "display": [
+        77.549617,
+        13.000523
+      ],
+      "lines": [
+        "green"
+      ],
+      "line_names": [
+        "Green Line"
+      ],
+      "primary_line": "green",
+      "type": "Elevated",
+      "codes": [
+        "RJNR"
+      ],
+      "sequences": {
+        "green": 13
+      },
+      "opened": "2014",
+      "opened_by_line": {
+        "green": "2014"
+      },
+      "interchange": false,
+      "connections": [],
+      "rank": 2
+    },
+    {
+      "name": "Yeshwanthpur",
+      "short": "Yeshwanthpur",
+      "actual": [
+        77.5497052,
+        13.0232981
+      ],
+      "routes": [
+        {
+          "line": "green",
+          "sequence": 10,
+          "code": "YPM",
+          "actual": [
+            77.5497052,
+            13.0232981
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2014"
+        }
+      ],
+      "id": "yeshwanthpur",
+      "display": [
+        77.549705,
+        13.023298
+      ],
+      "lines": [
+        "green"
+      ],
+      "line_names": [
+        "Green Line"
+      ],
+      "primary_line": "green",
+      "type": "Elevated",
+      "codes": [
+        "YPM"
+      ],
+      "sequences": {
+        "green": 10
+      },
+      "opened": "2014",
+      "opened_by_line": {
+        "green": "2014"
+      },
+      "interchange": false,
+      "connections": [
+        {
+          "type": "rail",
+          "label": "Yesvantpur Junction railway station"
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "name": "Attiguppe",
+      "short": "Attiguppe",
+      "actual": [
+        77.5335932,
+        12.9618581
+      ],
+      "routes": [
+        {
+          "line": "purple",
+          "sequence": 28,
+          "code": "AGPP",
+          "actual": [
+            77.5335932,
+            12.9618581
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2015"
+        }
+      ],
+      "id": "attiguppe",
+      "display": [
+        77.533593,
+        12.961858
+      ],
+      "lines": [
+        "purple"
+      ],
+      "line_names": [
+        "Purple Line"
+      ],
+      "primary_line": "purple",
+      "type": "Elevated",
+      "codes": [
+        "AGPP"
+      ],
+      "sequences": {
+        "purple": 28
+      },
+      "opened": "2015",
+      "opened_by_line": {
+        "purple": "2015"
+      },
+      "interchange": false,
+      "connections": [
+        {
+          "type": "bus",
+          "label": "Vijayanagara TTMC"
+        }
+      ],
+      "rank": 3
+    },
+    {
+      "name": "BTM Layout",
+      "short": "BTM Layout",
+      "actual": [
+        77.6086222,
+        12.916598
+      ],
+      "routes": [
+        {
+          "line": "yellow",
+          "sequence": 4,
+          "code": "BTML",
+          "actual": [
+            77.6086222,
+            12.916598
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2025"
+        }
+      ],
+      "id": "btm-layout",
+      "display": [
+        77.608622,
+        12.916598
+      ],
+      "lines": [
+        "yellow"
+      ],
+      "line_names": [
+        "Yellow Line"
+      ],
+      "primary_line": "yellow",
+      "type": "Elevated",
+      "codes": [
+        "BTML"
+      ],
+      "sequences": {
+        "yellow": 4
+      },
+      "opened": "2025",
+      "opened_by_line": {
+        "yellow": "2025"
+      },
+      "interchange": false,
+      "connections": [],
+      "rank": 3
+    },
+    {
+      "name": "Benniganahalli",
+      "short": "Benniganahalli",
+      "actual": [
+        77.6684788,
+        12.996496
+      ],
+      "routes": [
+        {
+          "line": "purple",
+          "sequence": 13,
+          "code": "JTPM",
+          "actual": [
+            77.6684788,
+            12.996496
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2023"
+        }
+      ],
+      "id": "benniganahalli",
+      "display": [
+        77.668479,
+        12.996496
+      ],
+      "lines": [
+        "purple"
+      ],
+      "line_names": [
+        "Purple Line"
+      ],
+      "primary_line": "purple",
+      "type": "Elevated",
+      "codes": [
+        "JTPM"
+      ],
+      "sequences": {
+        "purple": 13
+      },
+      "opened": "2023",
+      "opened_by_line": {
+        "purple": "2023"
+      },
+      "interchange": false,
+      "connections": [],
+      "rank": 3
+    },
+    {
+      "name": "Beratena Agrahara",
+      "short": "Beratena Agrahara",
+      "actual": [
+        77.6581956,
+        12.8635659
+      ],
+      "routes": [
+        {
+          "line": "yellow",
+          "sequence": 11,
+          "code": "HOSR",
+          "actual": [
+            77.6581956,
+            12.8635659
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2025"
+        }
+      ],
+      "id": "beratena-agrahara",
+      "display": [
+        77.658196,
+        12.863566
+      ],
+      "lines": [
+        "yellow"
+      ],
+      "line_names": [
+        "Yellow Line"
+      ],
+      "primary_line": "yellow",
+      "type": "Elevated",
+      "codes": [
+        "HOSR"
+      ],
+      "sequences": {
+        "yellow": 11
+      },
+      "opened": "2025",
+      "opened_by_line": {
+        "yellow": "2025"
+      },
+      "interchange": false,
+      "connections": [],
+      "rank": 3
+    },
+    {
+      "name": "Biocon Hebbagodi",
+      "short": "Biocon Hebbagodi",
+      "actual": [
+        77.6815497,
+        12.8285866
+      ],
+      "routes": [
+        {
+          "line": "yellow",
+          "sequence": 15,
+          "code": "HBGI",
+          "actual": [
+            77.6815497,
+            12.8285866
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2025"
+        }
+      ],
+      "id": "biocon-hebbagodi",
+      "display": [
+        77.68155,
+        12.828587
+      ],
+      "lines": [
+        "yellow"
+      ],
+      "line_names": [
+        "Yellow Line"
+      ],
+      "primary_line": "yellow",
+      "type": "Elevated",
+      "codes": [
+        "HBGI"
+      ],
+      "sequences": {
+        "yellow": 15
+      },
+      "opened": "2025",
+      "opened_by_line": {
+        "yellow": "2025"
+      },
+      "interchange": false,
+      "connections": [],
+      "rank": 3
+    },
+    {
+      "name": "Bommanahalli",
+      "short": "Bommanahalli",
+      "actual": [
+        77.6267043,
+        12.910304
+      ],
+      "routes": [
+        {
+          "line": "yellow",
+          "sequence": 6,
+          "code": "HSRL",
+          "actual": [
+            77.6267043,
+            12.910304
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2025"
+        }
+      ],
+      "id": "bommanahalli",
+      "display": [
+        77.626704,
+        12.910304
+      ],
+      "lines": [
+        "yellow"
+      ],
+      "line_names": [
+        "Yellow Line"
+      ],
+      "primary_line": "yellow",
+      "type": "Elevated",
+      "codes": [
+        "HSRL"
+      ],
+      "sequences": {
+        "yellow": 6
+      },
+      "opened": "2025",
+      "opened_by_line": {
+        "yellow": "2025"
+      },
+      "interchange": false,
+      "connections": [],
+      "rank": 3
+    },
+    {
+      "name": "Chickpete",
+      "short": "Chickpete",
+      "actual": [
+        77.5745314,
+        12.9669249
+      ],
+      "routes": [
+        {
+          "line": "green",
+          "sequence": 18,
+          "code": "CKPE",
+          "actual": [
+            77.5745314,
+            12.9669249
+          ],
+          "on_route": true,
+          "type": "Underground",
+          "opened": "2017"
+        }
+      ],
+      "id": "chickpete",
+      "display": [
+        77.574531,
+        12.966925
+      ],
+      "lines": [
+        "green"
+      ],
+      "line_names": [
+        "Green Line"
+      ],
+      "primary_line": "green",
+      "type": "Underground",
+      "codes": [
+        "CKPE"
+      ],
+      "sequences": {
+        "green": 18
+      },
+      "opened": "2017",
+      "opened_by_line": {
+        "green": "2017"
+      },
+      "interchange": false,
+      "connections": [],
+      "rank": 3
+    },
+    {
+      "name": "Chikkabidarakallu",
+      "short": "Chikkabidarakallu",
+      "actual": [
+        77.4879101,
+        13.0523412
+      ],
+      "routes": [
+        {
+          "line": "green",
+          "sequence": 2,
+          "code": "CKBD",
+          "actual": [
+            77.4879101,
+            13.0523412
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2024"
+        }
+      ],
+      "id": "chikkabidarakallu",
+      "display": [
+        77.48791,
+        13.052341
+      ],
+      "lines": [
+        "green"
+      ],
+      "line_names": [
+        "Green Line"
+      ],
+      "primary_line": "green",
+      "type": "Elevated",
+      "codes": [
+        "CKBD"
+      ],
+      "sequences": {
+        "green": 2
+      },
+      "opened": "2024",
+      "opened_by_line": {
+        "green": "2024"
+      },
+      "interchange": false,
+      "connections": [],
+      "rank": 3
+    },
+    {
+      "name": "Cubbon Park",
+      "short": "Cubbon Park",
+      "actual": [
+        77.597562,
+        12.9808954
+      ],
+      "routes": [
+        {
+          "line": "purple",
+          "sequence": 20,
+          "code": "CBPK",
+          "actual": [
+            77.597562,
+            12.9808954
+          ],
+          "on_route": true,
+          "type": "Underground",
+          "opened": "2016"
+        }
+      ],
+      "id": "cubbon-park",
+      "display": [
+        77.597562,
+        12.980895
+      ],
+      "lines": [
+        "purple"
+      ],
+      "line_names": [
+        "Purple Line"
+      ],
+      "primary_line": "purple",
+      "type": "Underground",
+      "codes": [
+        "CBPK"
+      ],
+      "sequences": {
+        "purple": 20
+      },
+      "opened": "2016",
+      "opened_by_line": {
+        "purple": "2016"
+      },
+      "interchange": false,
+      "connections": [],
+      "rank": 3
+    },
+    {
+      "name": "Dasarahalli",
+      "short": "Dasarahalli",
+      "actual": [
+        77.5125345,
+        13.0432196
+      ],
+      "routes": [
+        {
+          "line": "green",
+          "sequence": 5,
+          "code": "DSH",
+          "actual": [
+            77.5125345,
+            13.0432196
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2015"
+        }
+      ],
+      "id": "dasarahalli",
+      "display": [
+        77.512535,
+        13.04322
+      ],
+      "lines": [
+        "green"
+      ],
+      "line_names": [
+        "Green Line"
+      ],
+      "primary_line": "green",
+      "type": "Elevated",
+      "codes": [
+        "DSH"
+      ],
+      "sequences": {
+        "green": 5
+      },
+      "opened": "2015",
+      "opened_by_line": {
+        "green": "2015"
+      },
+      "interchange": false,
+      "connections": [],
+      "rank": 3
+    },
+    {
+      "name": "Deepanjali Nagar",
+      "short": "Deepanjali Nagar",
+      "actual": [
+        77.5370399,
+        12.9520466
+      ],
+      "routes": [
+        {
+          "line": "purple",
+          "sequence": 29,
+          "code": "DJNR",
+          "actual": [
+            77.5370399,
+            12.9520466
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2015"
+        }
+      ],
+      "id": "deepanjali-nagar",
+      "display": [
+        77.53704,
+        12.952047
+      ],
+      "lines": [
+        "purple"
+      ],
+      "line_names": [
+        "Purple Line"
+      ],
+      "primary_line": "purple",
+      "type": "Elevated",
+      "codes": [
+        "DJNR"
+      ],
+      "sequences": {
+        "purple": 29
+      },
+      "opened": "2015",
+      "opened_by_line": {
+        "purple": "2015"
+      },
+      "interchange": false,
+      "connections": [],
+      "rank": 3
+    },
+    {
+      "name": "Doddakallasandra",
+      "short": "Doddakallasandra",
+      "actual": [
+        77.552751,
+        12.8846862
+      ],
+      "routes": [
+        {
+          "line": "green",
+          "sequence": 29,
+          "code": "KLPK",
+          "actual": [
+            77.552751,
+            12.8846862
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2021"
+        }
+      ],
+      "id": "doddakallasandra",
+      "display": [
+        77.552751,
+        12.884686
+      ],
+      "lines": [
+        "green"
+      ],
+      "line_names": [
+        "Green Line"
+      ],
+      "primary_line": "green",
+      "type": "Elevated",
+      "codes": [
+        "KLPK"
+      ],
+      "sequences": {
+        "green": 29
+      },
+      "opened": "2021",
+      "opened_by_line": {
+        "green": "2021"
+      },
+      "interchange": false,
+      "connections": [],
+      "rank": 3
+    },
+    {
+      "name": "Dr B R Ambedkar Station Vidhana Soudha",
+      "short": "Vidhana Soudha",
+      "actual": [
+        77.5911088,
+        12.9779727
+      ],
+      "routes": [
+        {
+          "line": "purple",
+          "sequence": 21,
+          "code": "VDSA",
+          "actual": [
+            77.5911088,
+            12.9779727
+          ],
+          "on_route": true,
+          "type": "Underground",
+          "opened": "2016"
+        }
+      ],
+      "id": "dr-b-r-ambedkar-station-vidhana-soudha",
+      "display": [
+        77.591109,
+        12.977973
+      ],
+      "lines": [
+        "purple"
+      ],
+      "line_names": [
+        "Purple Line"
+      ],
+      "primary_line": "purple",
+      "type": "Underground",
+      "codes": [
+        "VDSA"
+      ],
+      "sequences": {
+        "purple": 21
+      },
+      "opened": "2016",
+      "opened_by_line": {
+        "purple": "2016"
+      },
+      "interchange": false,
+      "connections": [],
+      "rank": 3
+    },
+    {
+      "name": "Garudacharapalya",
+      "short": "Garudacharapalya",
+      "actual": [
+        77.7032966,
+        12.9935165
+      ],
+      "routes": [
+        {
+          "line": "purple",
+          "sequence": 10,
+          "code": "GDCP",
+          "actual": [
+            77.7032966,
+            12.9935165
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2023"
+        }
+      ],
+      "id": "garudacharapalya",
+      "display": [
+        77.703297,
+        12.993517
+      ],
+      "lines": [
+        "purple"
+      ],
+      "line_names": [
+        "Purple Line"
+      ],
+      "primary_line": "purple",
+      "type": "Elevated",
+      "codes": [
+        "GDCP"
+      ],
+      "sequences": {
+        "purple": 10
+      },
+      "opened": "2023",
+      "opened_by_line": {
+        "purple": "2023"
+      },
+      "interchange": false,
+      "connections": [],
+      "rank": 3
+    },
+    {
+      "name": "Goraguntepalya",
+      "short": "Goraguntepalya",
+      "actual": [
+        77.5404372,
+        13.028613
+      ],
+      "routes": [
+        {
+          "line": "green",
+          "sequence": 9,
+          "code": "YPI",
+          "actual": [
+            77.5404372,
+            13.028613
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2014"
+        }
+      ],
+      "id": "goraguntepalya",
+      "display": [
+        77.540437,
+        13.028613
+      ],
+      "lines": [
+        "green"
+      ],
+      "line_names": [
+        "Green Line"
+      ],
+      "primary_line": "green",
+      "type": "Elevated",
+      "codes": [
+        "YPI"
+      ],
+      "sequences": {
+        "green": 9
+      },
+      "opened": "2014",
+      "opened_by_line": {
+        "green": "2014"
+      },
+      "interchange": false,
+      "connections": [],
+      "rank": 3
+    },
+    {
+      "name": "Halasuru",
+      "short": "Halasuru",
+      "actual": [
+        77.626705,
+        12.9764915
+      ],
+      "routes": [
+        {
+          "line": "purple",
+          "sequence": 17,
+          "code": "HLRU",
+          "actual": [
+            77.626705,
+            12.9764915
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2011"
+        }
+      ],
+      "id": "halasuru",
+      "display": [
+        77.626705,
+        12.976491
+      ],
+      "lines": [
+        "purple"
+      ],
+      "line_names": [
+        "Purple Line"
+      ],
+      "primary_line": "purple",
+      "type": "Elevated",
+      "codes": [
+        "HLRU"
+      ],
+      "sequences": {
+        "purple": 17
+      },
+      "opened": "2011",
+      "opened_by_line": {
+        "purple": "2011"
+      },
+      "interchange": false,
+      "connections": [],
+      "rank": 3
+    },
+    {
+      "name": "Hongasandra",
+      "short": "Hongasandra",
+      "actual": [
+        77.6322415,
+        12.9013317
+      ],
+      "routes": [
+        {
+          "line": "yellow",
+          "sequence": 7,
+          "code": "OFDC",
+          "actual": [
+            77.6322415,
+            12.9013317
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2025"
+        }
+      ],
+      "id": "hongasandra",
+      "display": [
+        77.632242,
+        12.901332
+      ],
+      "lines": [
+        "yellow"
+      ],
+      "line_names": [
+        "Yellow Line"
+      ],
+      "primary_line": "yellow",
+      "type": "Elevated",
+      "codes": [
+        "OFDC"
+      ],
+      "sequences": {
+        "yellow": 7
+      },
+      "opened": "2025",
+      "opened_by_line": {
+        "yellow": "2025"
+      },
+      "interchange": false,
+      "connections": [],
+      "rank": 3
+    },
+    {
+      "name": "Hoodi",
+      "short": "Hoodi",
+      "actual": [
+        77.7118453,
+        12.9891327
+      ],
+      "routes": [
+        {
+          "line": "purple",
+          "sequence": 9,
+          "code": "DKIA",
+          "actual": [
+            77.7118453,
+            12.9891327
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2023"
+        }
+      ],
+      "id": "hoodi",
+      "display": [
+        77.711845,
+        12.989133
+      ],
+      "lines": [
+        "purple"
+      ],
+      "line_names": [
+        "Purple Line"
+      ],
+      "primary_line": "purple",
+      "type": "Elevated",
+      "codes": [
+        "DKIA"
+      ],
+      "sequences": {
+        "purple": 9
+      },
+      "opened": "2023",
+      "opened_by_line": {
+        "purple": "2023"
+      },
+      "interchange": false,
+      "connections": [
+        {
+          "type": "rail",
+          "label": "Hoodi Halt"
+        }
+      ],
+      "rank": 3
+    },
+    {
+      "name": "Hopefarm Channasandra",
+      "short": "Hopefarm",
+      "actual": [
+        77.7538642,
+        12.9872074
+      ],
+      "routes": [
+        {
+          "line": "purple",
+          "sequence": 2,
+          "code": "UWVL",
+          "actual": [
+            77.7538642,
+            12.9872074
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2023"
+        }
+      ],
+      "id": "hopefarm-channasandra",
+      "display": [
+        77.753864,
+        12.987207
+      ],
+      "lines": [
+        "purple"
+      ],
+      "line_names": [
+        "Purple Line"
+      ],
+      "primary_line": "purple",
+      "type": "Elevated",
+      "codes": [
+        "UWVL"
+      ],
+      "sequences": {
+        "purple": 2
+      },
+      "opened": "2023",
+      "opened_by_line": {
+        "purple": "2023"
+      },
+      "interchange": false,
+      "connections": [],
+      "rank": 3
+    },
+    {
+      "name": "Hosa Road",
+      "short": "Hosa Road",
+      "actual": [
+        77.6527461,
+        12.8703997
+      ],
+      "routes": [
+        {
+          "line": "yellow",
+          "sequence": 10,
+          "code": "BSRD",
+          "actual": [
+            77.6527461,
+            12.8703997
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2025"
+        }
+      ],
+      "id": "hosa-road",
+      "display": [
+        77.652746,
+        12.8704
+      ],
+      "lines": [
+        "yellow"
+      ],
+      "line_names": [
+        "Yellow Line"
+      ],
+      "primary_line": "yellow",
+      "type": "Elevated",
+      "codes": [
+        "BSRD"
+      ],
+      "sequences": {
+        "yellow": 10
+      },
+      "opened": "2025",
+      "opened_by_line": {
+        "yellow": "2025"
+      },
+      "interchange": false,
+      "connections": [],
+      "rank": 3
+    },
+    {
+      "name": "Huskur Road",
+      "short": "Huskur Road",
+      "actual": [
+        77.6777338,
+        12.8387166
+      ],
+      "routes": [
+        {
+          "line": "yellow",
+          "sequence": 14,
+          "code": "HSKR",
+          "actual": [
+            77.6777338,
+            12.8387166
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2025"
+        }
+      ],
+      "id": "huskur-road",
+      "display": [
+        77.677734,
+        12.838717
+      ],
+      "lines": [
+        "yellow"
+      ],
+      "line_names": [
+        "Yellow Line"
+      ],
+      "primary_line": "yellow",
+      "type": "Elevated",
+      "codes": [
+        "HSKR"
+      ],
+      "sequences": {
+        "yellow": 14
+      },
+      "opened": "2025",
+      "opened_by_line": {
+        "yellow": "2025"
+      },
+      "interchange": false,
+      "connections": [],
+      "rank": 3
+    },
+    {
+      "name": "Infosys Foundation Konappana Agrahara",
+      "short": "Infosys Foundation Konappana Agrahara",
+      "actual": [
+        77.6714519,
+        12.8460892
+      ],
+      "routes": [
+        {
+          "line": "yellow",
+          "sequence": 13,
+          "code": "ECTN",
+          "actual": [
+            77.6714519,
+            12.8460892
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2025"
+        }
+      ],
+      "id": "infosys-foundation-konappana-agrahara",
+      "display": [
+        77.671452,
+        12.846089
+      ],
+      "lines": [
+        "yellow"
+      ],
+      "line_names": [
+        "Yellow Line"
+      ],
+      "primary_line": "yellow",
+      "type": "Elevated",
+      "codes": [
+        "ECTN"
+      ],
+      "sequences": {
+        "yellow": 13
+      },
+      "opened": "2025",
+      "opened_by_line": {
+        "yellow": "2025"
+      },
+      "interchange": false,
+      "connections": [],
+      "rank": 3
+    },
+    {
+      "name": "Jalahalli",
+      "short": "Jalahalli",
+      "actual": [
+        77.5197223,
+        13.0393735
+      ],
+      "routes": [
+        {
+          "line": "green",
+          "sequence": 6,
+          "code": "JLHL",
+          "actual": [
+            77.5197223,
+            13.0393735
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2015"
+        }
+      ],
+      "id": "jalahalli",
+      "display": [
+        77.519722,
+        13.039373
+      ],
+      "lines": [
+        "green"
+      ],
+      "line_names": [
+        "Green Line"
+      ],
+      "primary_line": "green",
+      "type": "Elevated",
+      "codes": [
+        "JLHL"
+      ],
+      "sequences": {
+        "green": 6
+      },
+      "opened": "2015",
+      "opened_by_line": {
+        "green": "2015"
+      },
+      "interchange": false,
+      "connections": [],
+      "rank": 3
+    },
+    {
+      "name": "Jayaprakash Nagar",
+      "short": "Jayaprakash Nagar",
+      "actual": [
+        77.5731076,
+        12.907476
+      ],
+      "routes": [
+        {
+          "line": "green",
+          "sequence": 26,
+          "code": "JPN",
+          "actual": [
+            77.5731076,
+            12.907476
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2017"
+        }
+      ],
+      "id": "jayaprakash-nagar",
+      "display": [
+        77.573108,
+        12.907476
+      ],
+      "lines": [
+        "green"
+      ],
+      "line_names": [
+        "Green Line"
+      ],
+      "primary_line": "green",
+      "type": "Elevated",
+      "codes": [
+        "JPN"
+      ],
+      "sequences": {
+        "green": 26
+      },
+      "opened": "2017",
+      "opened_by_line": {
+        "green": "2017"
+      },
+      "interchange": false,
+      "connections": [],
+      "rank": 3
+    },
+    {
+      "name": "Jnanabharathi",
+      "short": "Jnanabharathi",
+      "actual": [
+        77.5121817,
+        12.935401
+      ],
+      "routes": [
+        {
+          "line": "purple",
+          "sequence": 33,
+          "code": "BGUC",
+          "actual": [
+            77.5121817,
+            12.935401
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2021"
+        }
+      ],
+      "id": "jnanabharathi",
+      "display": [
+        77.512182,
+        12.935401
+      ],
+      "lines": [
+        "purple"
+      ],
+      "line_names": [
+        "Purple Line"
+      ],
+      "primary_line": "purple",
+      "type": "Elevated",
+      "codes": [
+        "BGUC"
+      ],
+      "sequences": {
+        "purple": 33
+      },
+      "opened": "2021",
+      "opened_by_line": {
+        "purple": "2021"
+      },
+      "interchange": false,
+      "connections": [],
+      "rank": 3
+    },
+    {
+      "name": "Kadugodi Tree Park",
+      "short": "Tree Park",
+      "actual": [
+        77.7465715,
+        12.9857936
+      ],
+      "routes": [
+        {
+          "line": "purple",
+          "sequence": 3,
+          "code": "KDGD",
+          "actual": [
+            77.7465715,
+            12.9857936
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2023"
+        }
+      ],
+      "id": "kadugodi-tree-park",
+      "display": [
+        77.746572,
+        12.985794
+      ],
+      "lines": [
+        "purple"
+      ],
+      "line_names": [
+        "Purple Line"
+      ],
+      "primary_line": "purple",
+      "type": "Elevated",
+      "codes": [
+        "KDGD"
+      ],
+      "sequences": {
+        "purple": 3
+      },
+      "opened": "2023",
+      "opened_by_line": {
+        "purple": "2023"
+      },
+      "interchange": false,
+      "connections": [],
+      "rank": 3
+    },
+    {
+      "name": "Kengeri Bus Terminal",
+      "short": "Kengeri Bus Terminal",
+      "actual": [
+        77.4877755,
+        12.9147641
+      ],
+      "routes": [
+        {
+          "line": "purple",
+          "sequence": 35,
+          "code": "MLSD",
+          "actual": [
+            77.4877755,
+            12.9147641
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2021"
+        }
+      ],
+      "id": "kengeri-bus-terminal",
+      "display": [
+        77.487775,
+        12.914764
+      ],
+      "lines": [
+        "purple"
+      ],
+      "line_names": [
+        "Purple Line"
+      ],
+      "primary_line": "purple",
+      "type": "Elevated",
+      "codes": [
+        "MLSD"
+      ],
+      "sequences": {
+        "purple": 35
+      },
+      "opened": "2021",
+      "opened_by_line": {
+        "purple": "2021"
+      },
+      "interchange": false,
+      "connections": [
+        {
+          "type": "bus",
+          "label": "Kengeri TTMC"
+        }
+      ],
+      "rank": 3
+    },
+    {
+      "name": "Konanakunte Cross",
+      "short": "Konanakunte Cross",
+      "actual": [
+        77.5626569,
+        12.8889872
+      ],
+      "routes": [
+        {
+          "line": "green",
+          "sequence": 28,
+          "code": "APRC",
+          "actual": [
+            77.5626569,
+            12.8889872
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2021"
+        }
+      ],
+      "id": "konanakunte-cross",
+      "display": [
+        77.562657,
+        12.888987
+      ],
+      "lines": [
+        "green"
+      ],
+      "line_names": [
+        "Green Line"
+      ],
+      "primary_line": "green",
+      "type": "Elevated",
+      "codes": [
+        "APRC"
+      ],
+      "sequences": {
+        "green": 28
+      },
+      "opened": "2021",
+      "opened_by_line": {
+        "green": "2021"
+      },
+      "interchange": false,
+      "connections": [],
+      "rank": 3
+    },
+    {
+      "name": "Krantivira Sangolli Rayanna Railway Station",
+      "short": "KSR Bengaluru",
+      "actual": [
+        77.5653792,
+        12.9758581
+      ],
+      "routes": [
+        {
+          "line": "purple",
+          "sequence": 24,
+          "code": "BRCS",
+          "actual": [
+            77.5653792,
+            12.9758581
+          ],
+          "on_route": true,
+          "type": "Underground",
+          "opened": "2016"
+        }
+      ],
+      "id": "krantivira-sangolli-rayanna-railway-station",
+      "display": [
+        77.565379,
+        12.975858
+      ],
+      "lines": [
+        "purple"
+      ],
+      "line_names": [
+        "Purple Line"
+      ],
+      "primary_line": "purple",
+      "type": "Underground",
+      "codes": [
+        "BRCS"
+      ],
+      "sequences": {
+        "purple": 24
+      },
+      "opened": "2016",
+      "opened_by_line": {
+        "purple": "2016"
+      },
+      "interchange": false,
+      "connections": [
+        {
+          "type": "rail",
+          "label": "KSR Bengaluru City railway station"
+        }
+      ],
+      "rank": 3
+    },
+    {
+      "name": "Krishna Rajendra Market",
+      "short": "Krishna Rajendra Market",
+      "actual": [
+        77.5746404,
+        12.960896
+      ],
+      "routes": [
+        {
+          "line": "green",
+          "sequence": 19,
+          "code": "KRMT",
+          "actual": [
+            77.5746404,
+            12.960896
+          ],
+          "on_route": true,
+          "type": "Underground",
+          "opened": "2017"
+        }
+      ],
+      "id": "krishna-rajendra-market",
+      "display": [
+        77.57464,
+        12.960896
+      ],
+      "lines": [
+        "green"
+      ],
+      "line_names": [
+        "Green Line"
+      ],
+      "primary_line": "green",
+      "type": "Underground",
+      "codes": [
+        "KRMT"
+      ],
+      "sequences": {
+        "green": 19
+      },
+      "opened": "2017",
+      "opened_by_line": {
+        "green": "2017"
+      },
+      "interchange": false,
+      "connections": [],
+      "rank": 3
+    },
+    {
+      "name": "Kudlu Gate",
+      "short": "Kudlu Gate",
+      "actual": [
+        77.63947,
+        12.8895614
+      ],
+      "routes": [
+        {
+          "line": "yellow",
+          "sequence": 8,
+          "code": "MSRN",
+          "actual": [
+            77.63947,
+            12.8895614
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2025"
+        }
+      ],
+      "id": "kudlu-gate",
+      "display": [
+        77.63947,
+        12.889561
+      ],
+      "lines": [
+        "yellow"
+      ],
+      "line_names": [
+        "Yellow Line"
+      ],
+      "primary_line": "yellow",
+      "type": "Elevated",
+      "codes": [
+        "MSRN"
+      ],
+      "sequences": {
+        "yellow": 8
+      },
+      "opened": "2025",
+      "opened_by_line": {
+        "yellow": "2025"
+      },
+      "interchange": false,
+      "connections": [],
+      "rank": 3
+    },
+    {
+      "name": "Kundalahalli",
+      "short": "Kundalahalli",
+      "actual": [
+        77.715061,
+        12.9776292
+      ],
+      "routes": [
+        {
+          "line": "purple",
+          "sequence": 7,
+          "code": "KDNH",
+          "actual": [
+            77.715061,
+            12.9776292
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2023"
+        }
+      ],
+      "id": "kundalahalli",
+      "display": [
+        77.715061,
+        12.977629
+      ],
+      "lines": [
+        "purple"
+      ],
+      "line_names": [
+        "Purple Line"
+      ],
+      "primary_line": "purple",
+      "type": "Elevated",
+      "codes": [
+        "KDNH"
+      ],
+      "sequences": {
+        "purple": 7
+      },
+      "opened": "2023",
+      "opened_by_line": {
+        "purple": "2023"
+      },
+      "interchange": false,
+      "connections": [],
+      "rank": 3
+    },
+    {
+      "name": "Lalbagh",
+      "short": "Lalbagh",
+      "actual": [
+        77.5799954,
+        12.9465339
+      ],
+      "routes": [
+        {
+          "line": "green",
+          "sequence": 21,
+          "code": "LBGH",
+          "actual": [
+            77.5799954,
+            12.9465339
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2017"
+        }
+      ],
+      "id": "lalbagh",
+      "display": [
+        77.579995,
+        12.946534
+      ],
+      "lines": [
+        "green"
+      ],
+      "line_names": [
+        "Green Line"
+      ],
+      "primary_line": "green",
+      "type": "Elevated",
+      "codes": [
+        "LBGH"
+      ],
+      "sequences": {
+        "green": 21
+      },
+      "opened": "2017",
+      "opened_by_line": {
+        "green": "2017"
+      },
+      "interchange": false,
+      "connections": [],
+      "rank": 3
+    },
+    {
+      "name": "Magadi Road",
+      "short": "Magadi Road",
+      "actual": [
+        77.5553564,
+        12.975608
+      ],
+      "routes": [
+        {
+          "line": "purple",
+          "sequence": 25,
+          "code": "MIRD",
+          "actual": [
+            77.5553564,
+            12.975608
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2015"
+        }
+      ],
+      "id": "magadi-road",
+      "display": [
+        77.555356,
+        12.975608
+      ],
+      "lines": [
+        "purple"
+      ],
+      "line_names": [
+        "Purple Line"
+      ],
+      "primary_line": "purple",
+      "type": "Elevated",
+      "codes": [
+        "MIRD"
+      ],
+      "sequences": {
+        "purple": 25
+      },
+      "opened": "2015",
+      "opened_by_line": {
+        "purple": "2015"
+      },
+      "interchange": false,
+      "connections": [],
+      "rank": 3
+    },
+    {
+      "name": "Mahakavi Kuvempu Road",
+      "short": "Mahakavi Kuvempu Road",
+      "actual": [
+        77.5568746,
+        12.9984697
+      ],
+      "routes": [
+        {
+          "line": "green",
+          "sequence": 14,
+          "code": "KVPR",
+          "actual": [
+            77.5568746,
+            12.9984697
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2014"
+        }
+      ],
+      "id": "mahakavi-kuvempu-road",
+      "display": [
+        77.556875,
+        12.99847
+      ],
+      "lines": [
+        "green"
+      ],
+      "line_names": [
+        "Green Line"
+      ],
+      "primary_line": "green",
+      "type": "Elevated",
+      "codes": [
+        "KVPR"
+      ],
+      "sequences": {
+        "green": 14
+      },
+      "opened": "2014",
+      "opened_by_line": {
+        "green": "2014"
+      },
+      "interchange": false,
+      "connections": [],
+      "rank": 3
+    },
+    {
+      "name": "Mahalakshmi",
+      "short": "Mahalakshmi",
+      "actual": [
+        77.5487834,
+        13.0080774
+      ],
+      "routes": [
+        {
+          "line": "green",
+          "sequence": 12,
+          "code": "MHLI",
+          "actual": [
+            77.5487834,
+            13.0080774
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2014"
+        }
+      ],
+      "id": "mahalakshmi",
+      "display": [
+        77.548783,
+        13.008077
+      ],
+      "lines": [
+        "green"
+      ],
+      "line_names": [
+        "Green Line"
+      ],
+      "primary_line": "green",
+      "type": "Elevated",
+      "codes": [
+        "MHLI"
+      ],
+      "sequences": {
+        "green": 12
+      },
+      "opened": "2014",
+      "opened_by_line": {
+        "green": "2014"
+      },
+      "interchange": false,
+      "connections": [],
+      "rank": 3
+    },
+    {
+      "name": "Manjunath Nagar",
+      "short": "Manjunath Nagar",
+      "actual": [
+        77.4944407,
+        13.0500685
+      ],
+      "routes": [
+        {
+          "line": "green",
+          "sequence": 3,
+          "code": "MNJN",
+          "actual": [
+            77.4944407,
+            13.0500685
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2024"
+        }
+      ],
+      "id": "manjunath-nagar",
+      "display": [
+        77.494441,
+        13.050069
+      ],
+      "lines": [
+        "green"
+      ],
+      "line_names": [
+        "Green Line"
+      ],
+      "primary_line": "green",
+      "type": "Elevated",
+      "codes": [
+        "MNJN"
+      ],
+      "sequences": {
+        "green": 3
+      },
+      "opened": "2024",
+      "opened_by_line": {
+        "green": "2024"
+      },
+      "interchange": false,
+      "connections": [],
+      "rank": 3
+    },
+    {
+      "name": "Mantri Square Sampige Road",
+      "short": "Mantri Square Sampige Road",
+      "actual": [
+        77.5706929,
+        12.9904282
+      ],
+      "routes": [
+        {
+          "line": "green",
+          "sequence": 16,
+          "code": "SPGD",
+          "actual": [
+            77.5706929,
+            12.9904282
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2014"
+        }
+      ],
+      "id": "mantri-square-sampige-road",
+      "display": [
+        77.570693,
+        12.990428
+      ],
+      "lines": [
+        "green"
+      ],
+      "line_names": [
+        "Green Line"
+      ],
+      "primary_line": "green",
+      "type": "Elevated",
+      "codes": [
+        "SPGD"
+      ],
+      "sequences": {
+        "green": 16
+      },
+      "opened": "2014",
+      "opened_by_line": {
+        "green": "2014"
+      },
+      "interchange": false,
+      "connections": [],
+      "rank": 3
+    },
+    {
+      "name": "Mysuru Road",
+      "short": "Mysuru Road",
+      "actual": [
+        77.5300896,
+        12.9466619
+      ],
+      "routes": [
+        {
+          "line": "purple",
+          "sequence": 30,
+          "code": "MYRD",
+          "actual": [
+            77.5300896,
+            12.9466619
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2015"
+        }
+      ],
+      "id": "mysuru-road",
+      "display": [
+        77.53009,
+        12.946662
+      ],
+      "lines": [
+        "purple"
+      ],
+      "line_names": [
+        "Purple Line"
+      ],
+      "primary_line": "purple",
+      "type": "Elevated",
+      "codes": [
+        "MYRD"
+      ],
+      "sequences": {
+        "purple": 30
+      },
+      "opened": "2015",
+      "opened_by_line": {
+        "purple": "2015"
+      },
+      "interchange": false,
+      "connections": [
+        {
+          "type": "future",
+          "label": "Orange Line (approved)"
+        }
+      ],
+      "rank": 3
+    },
+    {
+      "name": "Nagasandra",
+      "short": "Nagasandra",
+      "actual": [
+        77.5001342,
+        13.0479383
+      ],
+      "routes": [
+        {
+          "line": "green",
+          "sequence": 4,
+          "code": "NGSA",
+          "actual": [
+            77.5001342,
+            13.0479383
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2015"
+        }
+      ],
+      "id": "nagasandra",
+      "display": [
+        77.500134,
+        13.047938
+      ],
+      "lines": [
+        "green"
+      ],
+      "line_names": [
+        "Green Line"
+      ],
+      "primary_line": "green",
+      "type": "Elevated",
+      "codes": [
+        "NGSA"
+      ],
+      "sequences": {
+        "green": 4
+      },
+      "opened": "2015",
+      "opened_by_line": {
+        "green": "2015"
+      },
+      "interchange": false,
+      "connections": [],
+      "rank": 3
+    },
+    {
+      "name": "Nallurhalli",
+      "short": "Nallurhalli",
+      "actual": [
+        77.7243495,
+        12.9766126
+      ],
+      "routes": [
+        {
+          "line": "purple",
+          "sequence": 6,
+          "code": "VDHP",
+          "actual": [
+            77.7243495,
+            12.9766126
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2023"
+        }
+      ],
+      "id": "nallurhalli",
+      "display": [
+        77.72435,
+        12.976613
+      ],
+      "lines": [
+        "purple"
+      ],
+      "line_names": [
+        "Purple Line"
+      ],
+      "primary_line": "purple",
+      "type": "Elevated",
+      "codes": [
+        "VDHP"
+      ],
+      "sequences": {
+        "purple": 6
+      },
+      "opened": "2023",
+      "opened_by_line": {
+        "purple": "2023"
+      },
+      "interchange": false,
+      "connections": [],
+      "rank": 3
+    },
+    {
+      "name": "National College",
+      "short": "National College",
+      "actual": [
+        77.5736697,
+        12.9505263
+      ],
+      "routes": [
+        {
+          "line": "green",
+          "sequence": 20,
+          "code": "NLC",
+          "actual": [
+            77.5736697,
+            12.9505263
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2017"
+        }
+      ],
+      "id": "national-college",
+      "display": [
+        77.57367,
+        12.950526
+      ],
+      "lines": [
+        "green"
+      ],
+      "line_names": [
+        "Green Line"
+      ],
+      "primary_line": "green",
+      "type": "Elevated",
+      "codes": [
+        "NLC"
+      ],
+      "sequences": {
+        "green": 20
+      },
+      "opened": "2017",
+      "opened_by_line": {
+        "green": "2017"
+      },
+      "interchange": false,
+      "connections": [],
+      "rank": 3
+    },
+    {
+      "name": "Pantharapalya Nayandahalli",
+      "short": "Pantharapalya–Nayandahalli",
+      "actual": [
+        77.525127,
+        12.9416608
+      ],
+      "routes": [
+        {
+          "line": "purple",
+          "sequence": 31,
+          "code": "NYHM",
+          "actual": [
+            77.525127,
+            12.9416608
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2021"
+        }
+      ],
+      "id": "pantharapalya-nayandahalli",
+      "display": [
+        77.525127,
+        12.941661
+      ],
+      "lines": [
+        "purple"
+      ],
+      "line_names": [
+        "Purple Line"
+      ],
+      "primary_line": "purple",
+      "type": "Elevated",
+      "codes": [
+        "NYHM"
+      ],
+      "sequences": {
+        "purple": 31
+      },
+      "opened": "2021",
+      "opened_by_line": {
+        "purple": "2021"
+      },
+      "interchange": false,
+      "connections": [],
+      "rank": 3
+    },
+    {
+      "name": "Pattanagere",
+      "short": "Pattanagere",
+      "actual": [
+        77.4983002,
+        12.9242909
+      ],
+      "routes": [
+        {
+          "line": "purple",
+          "sequence": 34,
+          "code": "PATG",
+          "actual": [
+            77.4983002,
+            12.9242909
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2021"
+        }
+      ],
+      "id": "pattanagere",
+      "display": [
+        77.4983,
+        12.924291
+      ],
+      "lines": [
+        "purple"
+      ],
+      "line_names": [
+        "Purple Line"
+      ],
+      "primary_line": "purple",
+      "type": "Elevated",
+      "codes": [
+        "PATG"
+      ],
+      "sequences": {
+        "purple": 34
+      },
+      "opened": "2021",
+      "opened_by_line": {
+        "purple": "2021"
+      },
+      "interchange": false,
+      "connections": [],
+      "rank": 3
+    },
+    {
+      "name": "Pattandur Agrahara",
+      "short": "Pattandur Agrahara",
+      "actual": [
+        77.7372451,
+        12.9875935
+      ],
+      "routes": [
+        {
+          "line": "purple",
+          "sequence": 4,
+          "code": "ITPL",
+          "actual": [
+            77.7372451,
+            12.9875935
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2023"
+        }
+      ],
+      "id": "pattandur-agrahara",
+      "display": [
+        77.737245,
+        12.987593
+      ],
+      "lines": [
+        "purple"
+      ],
+      "line_names": [
+        "Purple Line"
+      ],
+      "primary_line": "purple",
+      "type": "Elevated",
+      "codes": [
+        "ITPL"
+      ],
+      "sequences": {
+        "purple": 4
+      },
+      "opened": "2023",
+      "opened_by_line": {
+        "purple": "2023"
+      },
+      "interchange": false,
+      "connections": [],
+      "rank": 3
+    },
+    {
+      "name": "Peenya Industry",
+      "short": "Peenya Industry",
+      "actual": [
+        77.5254867,
+        13.0362716
+      ],
+      "routes": [
+        {
+          "line": "green",
+          "sequence": 7,
+          "code": "PYID",
+          "actual": [
+            77.5254867,
+            13.0362716
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2014"
+        }
+      ],
+      "id": "peenya-industry",
+      "display": [
+        77.525487,
+        13.036272
+      ],
+      "lines": [
+        "green"
+      ],
+      "line_names": [
+        "Green Line"
+      ],
+      "primary_line": "green",
+      "type": "Elevated",
+      "codes": [
+        "PYID"
+      ],
+      "sequences": {
+        "green": 7
+      },
+      "opened": "2014",
+      "opened_by_line": {
+        "green": "2014"
+      },
+      "interchange": false,
+      "connections": [],
+      "rank": 3
+    },
+    {
+      "name": "Ragigudda",
+      "short": "Ragigudda",
+      "actual": [
+        77.588698,
+        12.9170892
+      ],
+      "routes": [
+        {
+          "line": "yellow",
+          "sequence": 2,
+          "code": "RGDT",
+          "actual": [
+            77.588698,
+            12.9170892
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2025"
+        }
+      ],
+      "id": "ragigudda",
+      "display": [
+        77.588698,
+        12.917089
+      ],
+      "lines": [
+        "yellow"
+      ],
+      "line_names": [
+        "Yellow Line"
+      ],
+      "primary_line": "yellow",
+      "type": "Elevated",
+      "codes": [
+        "RGDT"
+      ],
+      "sequences": {
+        "yellow": 2
+      },
+      "opened": "2025",
+      "opened_by_line": {
+        "yellow": "2025"
+      },
+      "interchange": false,
+      "connections": [],
+      "rank": 3
+    },
+    {
+      "name": "Rajarajeshwari Nagar",
+      "short": "Rajarajeshwari Nagar",
+      "actual": [
+        77.5196666,
+        12.9366362
+      ],
+      "routes": [
+        {
+          "line": "purple",
+          "sequence": 32,
+          "code": "RRRN",
+          "actual": [
+            77.5196666,
+            12.9366362
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2021"
+        }
+      ],
+      "id": "rajarajeshwari-nagar",
+      "display": [
+        77.519667,
+        12.936636
+      ],
+      "lines": [
+        "purple"
+      ],
+      "line_names": [
+        "Purple Line"
+      ],
+      "primary_line": "purple",
+      "type": "Elevated",
+      "codes": [
+        "RRRN"
+      ],
+      "sequences": {
+        "purple": 32
+      },
+      "opened": "2021",
+      "opened_by_line": {
+        "purple": "2021"
+      },
+      "interchange": false,
+      "connections": [],
+      "rank": 3
+    },
+    {
+      "name": "Sandal Soap Factory",
+      "short": "Sandal Soap Factory",
+      "actual": [
+        77.5539915,
+        13.0147178
+      ],
+      "routes": [
+        {
+          "line": "green",
+          "sequence": 11,
+          "code": "SSFY",
+          "actual": [
+            77.5539915,
+            13.0147178
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2014"
+        }
+      ],
+      "id": "sandal-soap-factory",
+      "display": [
+        77.553991,
+        13.014718
+      ],
+      "lines": [
+        "green"
+      ],
+      "line_names": [
+        "Green Line"
+      ],
+      "primary_line": "green",
+      "type": "Elevated",
+      "codes": [
+        "SSFY"
+      ],
+      "sequences": {
+        "green": 11
+      },
+      "opened": "2014",
+      "opened_by_line": {
+        "green": "2014"
+      },
+      "interchange": false,
+      "connections": [
+        {
+          "type": "bus",
+          "label": "Yeshwanthpura TTMC"
+        }
+      ],
+      "rank": 3
+    },
+    {
+      "name": "Seetharampalya",
+      "short": "Seetharampalya",
+      "actual": [
+        77.7086129,
+        12.9813697
+      ],
+      "routes": [
+        {
+          "line": "purple",
+          "sequence": 8,
+          "code": "VWIA",
+          "actual": [
+            77.7086129,
+            12.9813697
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2023"
+        }
+      ],
+      "id": "seetharampalya",
+      "display": [
+        77.708613,
+        12.98137
+      ],
+      "lines": [
+        "purple"
+      ],
+      "line_names": [
+        "Purple Line"
+      ],
+      "primary_line": "purple",
+      "type": "Elevated",
+      "codes": [
+        "VWIA"
+      ],
+      "sequences": {
+        "purple": 8
+      },
+      "opened": "2023",
+      "opened_by_line": {
+        "purple": "2023"
+      },
+      "interchange": false,
+      "connections": [],
+      "rank": 3
+    },
+    {
+      "name": "Singasandra",
+      "short": "Singasandra",
+      "actual": [
+        77.6451067,
+        12.8804315
+      ],
+      "routes": [
+        {
+          "line": "yellow",
+          "sequence": 9,
+          "code": "CKBR",
+          "actual": [
+            77.6451067,
+            12.8804315
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2025"
+        }
+      ],
+      "id": "singasandra",
+      "display": [
+        77.645107,
+        12.880432
+      ],
+      "lines": [
+        "yellow"
+      ],
+      "line_names": [
+        "Yellow Line"
+      ],
+      "primary_line": "yellow",
+      "type": "Elevated",
+      "codes": [
+        "CKBR"
+      ],
+      "sequences": {
+        "yellow": 9
+      },
+      "opened": "2025",
+      "opened_by_line": {
+        "yellow": "2025"
+      },
+      "interchange": false,
+      "connections": [],
+      "rank": 3
+    },
+    {
+      "name": "Singayyanapalya",
+      "short": "Singayyanapalya",
+      "actual": [
+        77.6921457,
+        12.9966967
+      ],
+      "routes": [
+        {
+          "line": "purple",
+          "sequence": 11,
+          "code": "MDVP",
+          "actual": [
+            77.6921457,
+            12.9966967
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2023"
+        }
+      ],
+      "id": "singayyanapalya",
+      "display": [
+        77.692146,
+        12.996697
+      ],
+      "lines": [
+        "purple"
+      ],
+      "line_names": [
+        "Purple Line"
+      ],
+      "primary_line": "purple",
+      "type": "Elevated",
+      "codes": [
+        "MDVP"
+      ],
+      "sequences": {
+        "purple": 11
+      },
+      "opened": "2023",
+      "opened_by_line": {
+        "purple": "2023"
+      },
+      "interchange": false,
+      "connections": [],
+      "rank": 3
+    },
+    {
+      "name": "Sir M Visvesvaraya Central College",
+      "short": "Sir M. Visvesvaraya",
+      "actual": [
+        77.5842326,
+        12.9745014
+      ],
+      "routes": [
+        {
+          "line": "purple",
+          "sequence": 22,
+          "code": "VSWA",
+          "actual": [
+            77.5842326,
+            12.9745014
+          ],
+          "on_route": true,
+          "type": "Underground",
+          "opened": "2016"
+        }
+      ],
+      "id": "sir-m-visvesvaraya-central-college",
+      "display": [
+        77.584233,
+        12.974501
+      ],
+      "lines": [
+        "purple"
+      ],
+      "line_names": [
+        "Purple Line"
+      ],
+      "primary_line": "purple",
+      "type": "Underground",
+      "codes": [
+        "VSWA"
+      ],
+      "sequences": {
+        "purple": 22
+      },
+      "opened": "2016",
+      "opened_by_line": {
+        "purple": "2016"
+      },
+      "interchange": false,
+      "connections": [
+        {
+          "type": "future",
+          "label": "Red Line (approved)"
+        }
+      ],
+      "rank": 3
+    },
+    {
+      "name": "South End Circle",
+      "short": "South End Circle",
+      "actual": [
+        77.5800349,
+        12.9382617
+      ],
+      "routes": [
+        {
+          "line": "green",
+          "sequence": 22,
+          "code": "SECE",
+          "actual": [
+            77.5800349,
+            12.9382617
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2017"
+        }
+      ],
+      "id": "south-end-circle",
+      "display": [
+        77.580035,
+        12.938262
+      ],
+      "lines": [
+        "green"
+      ],
+      "line_names": [
+        "Green Line"
+      ],
+      "primary_line": "green",
+      "type": "Elevated",
+      "codes": [
+        "SECE"
+      ],
+      "sequences": {
+        "green": 22
+      },
+      "opened": "2017",
+      "opened_by_line": {
+        "green": "2017"
+      },
+      "interchange": false,
+      "connections": [],
+      "rank": 3
+    },
+    {
+      "name": "Sri Balagangadharanatha Swamiji Hosahalli",
+      "short": "Hosahalli",
+      "actual": [
+        77.5456189,
+        12.9741737
+      ],
+      "routes": [
+        {
+          "line": "purple",
+          "sequence": 26,
+          "code": "HSLI",
+          "actual": [
+            77.5456189,
+            12.9741737
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2015"
+        }
+      ],
+      "id": "sri-balagangadharanatha-swamiji-hosahalli",
+      "display": [
+        77.545619,
+        12.974174
+      ],
+      "lines": [
+        "purple"
+      ],
+      "line_names": [
+        "Purple Line"
+      ],
+      "primary_line": "purple",
+      "type": "Elevated",
+      "codes": [
+        "HSLI"
+      ],
+      "sequences": {
+        "purple": 26
+      },
+      "opened": "2015",
+      "opened_by_line": {
+        "purple": "2015"
+      },
+      "interchange": false,
+      "connections": [
+        {
+          "type": "future",
+          "label": "Grey Line (approved)"
+        }
+      ],
+      "rank": 3
+    },
+    {
+      "name": "Sri Sathya Sai Hospital",
+      "short": "Sathya Sai Hospital",
+      "actual": [
+        77.7274963,
+        12.9807354
+      ],
+      "routes": [
+        {
+          "line": "purple",
+          "sequence": 5,
+          "code": "SSHP",
+          "actual": [
+            77.7274963,
+            12.9807354
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2023"
+        }
+      ],
+      "id": "sri-sathya-sai-hospital",
+      "display": [
+        77.727496,
+        12.980735
+      ],
+      "lines": [
+        "purple"
+      ],
+      "line_names": [
+        "Purple Line"
+      ],
+      "primary_line": "purple",
+      "type": "Elevated",
+      "codes": [
+        "SSHP"
+      ],
+      "sequences": {
+        "purple": 5
+      },
+      "opened": "2023",
+      "opened_by_line": {
+        "purple": "2023"
+      },
+      "interchange": false,
+      "connections": [],
+      "rank": 3
+    },
+    {
+      "name": "Srirampura",
+      "short": "Srirampura",
+      "actual": [
+        77.5632993,
+        12.9964948
+      ],
+      "routes": [
+        {
+          "line": "green",
+          "sequence": 15,
+          "code": "SPRU",
+          "actual": [
+            77.5632993,
+            12.9964948
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2014"
+        }
+      ],
+      "id": "srirampura",
+      "display": [
+        77.563299,
+        12.996495
+      ],
+      "lines": [
+        "green"
+      ],
+      "line_names": [
+        "Green Line"
+      ],
+      "primary_line": "green",
+      "type": "Elevated",
+      "codes": [
+        "SPRU"
+      ],
+      "sequences": {
+        "green": 15
+      },
+      "opened": "2014",
+      "opened_by_line": {
+        "green": "2014"
+      },
+      "interchange": false,
+      "connections": [],
+      "rank": 3
+    },
+    {
+      "name": "Swami Vivekananda Road",
+      "short": "SV Road",
+      "actual": [
+        77.6449072,
+        12.9859128
+      ],
+      "routes": [
+        {
+          "line": "purple",
+          "sequence": 15,
+          "code": "SVRD",
+          "actual": [
+            77.6449072,
+            12.9859128
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2011"
+        }
+      ],
+      "id": "swami-vivekananda-road",
+      "display": [
+        77.644907,
+        12.985913
+      ],
+      "lines": [
+        "purple"
+      ],
+      "line_names": [
+        "Purple Line"
+      ],
+      "primary_line": "purple",
+      "type": "Elevated",
+      "codes": [
+        "SVRD"
+      ],
+      "sequences": {
+        "purple": 15
+      },
+      "opened": "2011",
+      "opened_by_line": {
+        "purple": "2011"
+      },
+      "interchange": false,
+      "connections": [],
+      "rank": 3
+    },
+    {
+      "name": "Thalaghattapura",
+      "short": "Thalaghattapura",
+      "actual": [
+        77.5383625,
+        12.8714243
+      ],
+      "routes": [
+        {
+          "line": "green",
+          "sequence": 31,
+          "code": "TGTP",
+          "actual": [
+            77.5383625,
+            12.8714243
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2021"
+        }
+      ],
+      "id": "thalaghattapura",
+      "display": [
+        77.538363,
+        12.871424
+      ],
+      "lines": [
+        "green"
+      ],
+      "line_names": [
+        "Green Line"
+      ],
+      "primary_line": "green",
+      "type": "Elevated",
+      "codes": [
+        "TGTP"
+      ],
+      "sequences": {
+        "green": 31
+      },
+      "opened": "2021",
+      "opened_by_line": {
+        "green": "2021"
+      },
+      "interchange": false,
+      "connections": [],
+      "rank": 3
+    },
+    {
+      "name": "Trinity",
+      "short": "Trinity",
+      "actual": [
+        77.617013,
+        12.9729953
+      ],
+      "routes": [
+        {
+          "line": "purple",
+          "sequence": 18,
+          "code": "TTY",
+          "actual": [
+            77.617013,
+            12.9729953
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2011"
+        }
+      ],
+      "id": "trinity",
+      "display": [
+        77.617013,
+        12.972995
+      ],
+      "lines": [
+        "purple"
+      ],
+      "line_names": [
+        "Purple Line"
+      ],
+      "primary_line": "purple",
+      "type": "Elevated",
+      "codes": [
+        "TTY"
+      ],
+      "sequences": {
+        "purple": 18
+      },
+      "opened": "2011",
+      "opened_by_line": {
+        "purple": "2011"
+      },
+      "interchange": false,
+      "connections": [],
+      "rank": 3
+    },
+    {
+      "name": "Vajarahalli",
+      "short": "Vajarahalli",
+      "actual": [
+        77.544745,
+        12.8775389
+      ],
+      "routes": [
+        {
+          "line": "green",
+          "sequence": 30,
+          "code": "VJRH",
+          "actual": [
+            77.544745,
+            12.8775389
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2021"
+        }
+      ],
+      "id": "vajarahalli",
+      "display": [
+        77.544745,
+        12.877539
+      ],
+      "lines": [
+        "green"
+      ],
+      "line_names": [
+        "Green Line"
+      ],
+      "primary_line": "green",
+      "type": "Elevated",
+      "codes": [
+        "VJRH"
+      ],
+      "sequences": {
+        "green": 30
+      },
+      "opened": "2021",
+      "opened_by_line": {
+        "green": "2021"
+      },
+      "interchange": false,
+      "connections": [],
+      "rank": 3
+    },
+    {
+      "name": "Vijayanagar",
+      "short": "Vijayanagar",
+      "actual": [
+        77.5374285,
+        12.9709391
+      ],
+      "routes": [
+        {
+          "line": "purple",
+          "sequence": 27,
+          "code": "VJN",
+          "actual": [
+            77.5374285,
+            12.9709391
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2015"
+        }
+      ],
+      "id": "vijayanagar",
+      "display": [
+        77.537429,
+        12.970939
+      ],
+      "lines": [
+        "purple"
+      ],
+      "line_names": [
+        "Purple Line"
+      ],
+      "primary_line": "purple",
+      "type": "Elevated",
+      "codes": [
+        "VJN"
+      ],
+      "sequences": {
+        "purple": 27
+      },
+      "opened": "2015",
+      "opened_by_line": {
+        "purple": "2015"
+      },
+      "interchange": false,
+      "connections": [],
+      "rank": 3
+    },
+    {
+      "name": "Yelachenahalli",
+      "short": "Yelachenahalli",
+      "actual": [
+        77.5700982,
+        12.8960662
+      ],
+      "routes": [
+        {
+          "line": "green",
+          "sequence": 27,
+          "code": "PUTH",
+          "actual": [
+            77.5700982,
+            12.8960662
+          ],
+          "on_route": true,
+          "type": "Elevated",
+          "opened": "2017"
+        }
+      ],
+      "id": "yelachenahalli",
+      "display": [
+        77.570098,
+        12.896066
+      ],
+      "lines": [
+        "green"
+      ],
+      "line_names": [
+        "Green Line"
+      ],
+      "primary_line": "green",
+      "type": "Elevated",
+      "codes": [
+        "PUTH"
+      ],
+      "sequences": {
+        "green": 27
+      },
+      "opened": "2017",
+      "opened_by_line": {
+        "green": "2017"
+      },
+      "interchange": false,
+      "connections": [],
+      "rank": 3
+    }
+  ],
+  "interchanges": [
+    "nadaprabhu-kempegowda-station-majestic",
+    "rashtreeya-vidyalaya-road"
+  ]
+}

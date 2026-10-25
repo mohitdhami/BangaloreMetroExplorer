@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Namma Metro Explorer · Bengaluru</title>
+  <meta name="description" content="An interactive map of Bengaluru's operational Namma Metro network — the Purple, Green and Yellow lines, all 83 stations, interchanges and line details.">
+  <meta name="theme-color" content="#f7f5ef">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='12' fill='%230f172a'/%3E%3Cpath d='M13 29V13M20 29V13M27 29V13' stroke-width='4' stroke-linecap='round' stroke='%23a855f7'/%3E%3Cpath d='M20 29V13M27 29V13' stroke-width='4' stroke-linecap='round' stroke='%2322c55e'/%3E%3Cpath d='M27 29V13' stroke-width='4' stroke-linecap='round' stroke='%23eab308'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.6.1/dist/maplibre-gl.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-head">
+        <div class="brand-row">
+          <div class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 40 40" role="img">
+              <rect width="40" height="40" rx="12" fill="#0f172a"/>
+              <path d="M12.5 30V11.5" stroke="#a855f7" stroke-width="4" stroke-linecap="round"/>
+              <path d="M20 30V11.5" stroke="#22c55e" stroke-width="4" stroke-linecap="round"/>
+              <path d="M27.5 30V11.5" stroke="#eab308" stroke-width="4" stroke-linecap="round"/>
+              <circle cx="12.5" cy="23.5" r="2.1" fill="#f8fafc"/>
+              <circle cx="20" cy="18.5" r="2.1" fill="#f8fafc"/>
+              <circle cx="27.5" cy="14" r="2.1" fill="#f8fafc"/>
+            </svg>
+          </div>
+          <div class="brand-copy">
+            <p class="eyebrow">Bengaluru · Karnataka</p>
+            <h1>Namma Metro <span>Explorer</span></h1>
+          </div>
+          <button class="panel-toggle" id="panelToggle" aria-label="Collapse network panel" aria-expanded="true">
+            <svg viewBox="0 0 20 20" aria-hidden="true"><path d="m5 12 5-5 5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+        </div>
+
+        <p class="lede">A detailed map of the city's operational metro network, line by line.</p>
+
+        <div class="status-line">
+          <span class="status-dot" aria-hidden="true"></span>
+          <span>Operational network</span>
+          <span class="status-sep" aria-hidden="true">·</span>
+          <span id="clock">--:-- IST</span>
+        </div>
+
+        <div class="search-wrap">
+          <svg class="search-icon" viewBox="0 0 20 20" aria-hidden="true">
+            <circle cx="8.5" cy="8.5" r="5.5" fill="none" stroke="currentColor" stroke-width="1.7"/>
+            <path d="m13 13 4 4" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+          </svg>
+          <input id="stationSearch" type="text" placeholder="Find a station…" autocomplete="off" spellcheck="false" aria-label="Find a metro station" aria-controls="searchResults" aria-expanded="false">
+          <kbd>/</kbd>
+          <div class="search-results" id="searchResults" hidden></div>
+        </div>
+      </div>
+
+      <div class="sidebar-scroll" id="sidebarScroll">
+        <section class="stats-grid" aria-label="Network at a glance">
+          <div class="stat">
+            <span class="stat-value" id="statLength">96.1</span>
+            <span class="stat-label">km of network</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="statLines">3</span>
+            <span class="stat-label">operational lines</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="statStations">83</span>
+            <span class="stat-label">metro stations</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="statRidership">9.16<span>L</span></span>
+            <span class="stat-label">avg. daily rides</span>
+          </div>
+        </section>
+
+        <section aria-labelledby="linesHeading">
+          <div class="section-heading">
+            <h2 id="linesHeading">Lines in service</h2>
+            <span class="section-count">03</span>
+          </div>
+          <div class="line-list" id="lineCards"></div>
+        </section>
+
+        <section class="interchange-section" aria-labelledby="interchangeHeading">
+          <div class="section-heading">
+            <h2 id="interchangeHeading">Interchanges</h2>
+            <span class="section-count">02</span>
+          </div>
+          <div class="interchange-list" id="interchangeList"></div>
+        </section>
+
+        <section class="service-card" aria-labelledby="serviceHeading">
+          <div class="section-heading">
+            <h2 id="serviceHeading">Good to know</h2>
+            <span class="section-count">BMRCL</span>
+          </div>
+          <dl class="fact-list">
+            <div>
+              <dt>Service hours</dt>
+              <dd>05:00–23:00 <span>Sun from 07:00</span></dd>
+            </div>
+            <div>
+              <dt>Fares</dt>
+              <dd>₹10–₹90 <span>5% smart-card discount</span></dd>
+            </div>
+            <div>
+              <dt>Frequency</dt>
+              <dd>3–15 min <span>peak headways</span></dd>
+            </div>
+            <div>
+              <dt>System</dt>
+              <dd>96.1 km <span>standard gauge · 750 V DC</span></dd>
+            </div>
+          </dl>
+        </section>
+
+        <details class="network-note">
+          <summary>Network notes &amp; data</summary>
+          <div id="networkNotes"></div>
+          <div class="source-links" id="sourceLinks"></div>
+        </details>
+
+        <footer class="sidebar-footer">
+          <span>Snapshot <strong>25 Oct 2026</strong></span>
+          <span>Basemap by <a href="https://openfreemap.org/" target="_blank" rel="noopener">OpenFreeMap</a></span>
+        </footer>
+      </div>
+    </aside>
+
+    <main class="map-shell">
+      <div id="map" class="map" aria-label="Interactive map of Bengaluru's metro network"></div>
+
+      <button type="button" class="sidebar-open" id="sidebarOpen" aria-label="Show network panel">
+        <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M3.5 5.5h13M3.5 10h13M3.5 14.5h13" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        <span>Network</span>
+      </button>
+
+      <div class="map-topbar">
+        <div class="map-context">
+          <span class="context-dot" aria-hidden="true"></span>
+          <span id="mapContext">3 lines · 83 stations · 96.1 km</span>
+        </div>
+        <div class="style-switcher" id="styleSwitcher" role="group" aria-label="Choose basemap style">
+          <span class="style-label">Basemap</span>
+          <button type="button" data-style="positron" class="active" title="Positron — light and minimal">Mono</button>
+          <button type="button" data-style="liberty" title="Liberty — classic OpenFreeMap">Classic</button>
+          <button type="button" data-style="bright" title="Bright — colourful">Bright</button>
+          <button type="button" data-style="dark" title="Dark — night map">Night</button>
+        </div>
+      </div>
+
+      <div class="map-legend" id="mapLegend" aria-label="Metro line legend"></div>
+
+      <div class="map-controls" aria-label="Map controls">
+        <button type="button" id="zoomIn" title="Zoom in" aria-label="Zoom in">
+          <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 4v12M4 10h12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+        </button>
+        <button type="button" id="zoomOut" title="Zoom out" aria-label="Zoom out">
+          <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+        </button>
+        <span class="control-divider" aria-hidden="true"></span>
+        <button type="button" id="fitNetwork" title="Fit the whole network" aria-label="Fit the whole network">
+          <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M7 4H4v3M13 4h3v3M7 16H4v-3M13 16h3v-3" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <button type="button" id="locateMe" title="Find my location" aria-label="Find my location">
+          <svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="3.2" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M10 2.5v2M10 15.5v2M2.5 10h2M15.5 10h2" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+        </button>
+      </div>
+
+      <div class="map-attribution">
+        <span>© <a href="https://openfreemap.org/" target="_blank" rel="noopener">OpenFreeMap</a></span>
+        <span>© <a href="https://www.openmaptiles.org/" target="_blank" rel="noopener">OpenMapTiles</a></span>
+        <span>Data © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a></span>
+      </div>
+
+      <aside class="detail-panel" id="detailPanel" aria-hidden="true" aria-label="Selected map details">
+        <button type="button" class="detail-close" id="detailClose" aria-label="Close details">
+          <svg viewBox="0 0 20 20" aria-hidden="true"><path d="m5.5 5.5 9 9M14.5 5.5l-9 9" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+        </button>
+        <div class="detail-content" id="detailContent"></div>
+      </aside>
+
+      <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+      <div class="map-loading" id="mapLoading">
+        <div class="loading-inner">
+          <div class="loading-mark" aria-hidden="true">
+            <span></span><span></span><span></span>
+          </div>
+          <p>Drawing the network</p>
+          <small>Purple · Green · Yellow</small>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <noscript>
+    <div class="noscript">This map needs JavaScript enabled to draw the metro network.</div>
+  </noscript>
+
+  <script src="https://unpkg.com/maplibre-gl@5.6.1/dist/maplibre-gl.js"></script>
+  <script src="data/metro-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
